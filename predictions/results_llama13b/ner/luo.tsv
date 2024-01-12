@@ -1,0 +1,999 @@
+	example_id	language	text	spans	target	llama
+0	test-00002689	luo	Kwan jii maromo 796 mane oyudi ni nigi Covid-19 ei kawuononi	[{'start_byte': 51, 'limit_byte': 60, 'label': 'DATE'}]	DATE: kawuononi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Kwan Jii $ LOCATION: Maromo $ ORGANIZATION: Covid-19</s>"
+1	test-00002690	luo	Kwan jii mane oyudi ni nikod tuo mar Coronavirus ei kawuononi gin jii 796 makoro kelo kwan jogo duto man kod midusi makochno e pachoka ei kawuononi chopo jii alufu 15 gi 601	[{'start_byte': 52, 'limit_byte': 61, 'label': 'DATE'}, {'start_byte': 138, 'limit_byte': 147, 'label': 'DATE'}]	DATE: kawuononi $$ DATE: kawuononi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kwan Jii $ LOCATION: Coronavirus $ ORGANIZATION: ei kawuononi $ GIN: 796 $ MAKORO: kelo $ MIDUSI: makochno $ CHOPO: jii alufu $ LOCATION: New York</s>"
+2	test-00002691	luo	Magi ne oyangi gi jalup jatend migao mochungne yoore mag thieth e thurka laktar Mercy Mwangangi mane owacho ni kwan mar jii 796 no ne oyudi kuom kwan jii maromo alufu 6 gi 754 mane opim tok seche 24 mokalo	[{'start_byte': 80, 'limit_byte': 95, 'label': 'PER'}]	PER: Mercy Mwangangi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Magi
+$ ORGANIZATION: Mercy Mwangangi
+$ LOCATION: Jalup
+$ DATE: 796
+$ TIME: 24 mokalo</s>"
+3	test-00002692	luo	Jatelono bende ne oyango ni Nairobi emapod nigi kwan maduong mag joma nigi tuono magin jii 539 kaachiel gi lero ni nitie jii 3 moko mane tuono onego ei kawuononi	[{'start_byte': 28, 'limit_byte': 35, 'label': 'LOC'}, {'start_byte': 152, 'limit_byte': 161, 'label': 'DATE'}]	LOC: Nairobi $$ DATE: kawuononi	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Nairobi
+$ ORGANIZATION: Amazon
+$ PERSON: Jatelono</s>"
+4	test-00002693	luo	Magawa ma Blue Ridge Hotel manie boma ma Mbita owacho ni jago manyo oyudi ni nigi Covid-19 cha ok en jatijgi moyangi	[{'start_byte': 10, 'limit_byte': 26, 'label': 'ORG'}, {'start_byte': 33, 'limit_byte': 46, 'label': 'LOC'}]	ORG: Blue Ridge Hotel $$ LOC: boma ma Mbita	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ Magawa
+$ Blue Ridge Hotel
+$ Mbita
+$ owacho
+$ ni jago
+$ manyo
+$ oyudi
+$ ni nigi
+$ Covid-19
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with.</s>"
+5	test-00002694	luo	Tend magawa ma Blue Ridge Hotel manie boma ma Mbita e Sub County ma Suba North e County ma Homa Bay koro jowacho ni dichuo moro ma ja higni 29 mane oyudi ni nikod midusi mar Coronavirus ok en jatich moyangi mar magawano kakane bad migao mochungne yoor thieth e County ma Homa Bay kuno ne rik olando	[{'start_byte': 15, 'limit_byte': 31, 'label': 'ORG'}, {'start_byte': 38, 'limit_byte': 51, 'label': 'LOC'}, {'start_byte': 54, 'limit_byte': 78, 'label': 'LOC'}, {'start_byte': 81, 'limit_byte': 99, 'label': 'LOC'}, {'start_byte': 134, 'limit_byte': 142, 'label': 'DATE'}, {'start_byte': 261, 'limit_byte': 279, 'label': 'LOC'}]	ORG: Blue Ridge Hotel $$ LOC: boma ma Mbita $$ LOC: Sub County ma Suba North $$ LOC: County ma Homa Bay $$ DATE: higni 29 $$ LOC: County ma Homa Bay	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Homa Bay $ COUNTY: Suba North $ COUNTY: Homa Bay $ ORGANIZATION: Blue Ridge Hotel</s>"
+6	test-00002695	luo	Maendi koro ne wuok bang weche yangore ni achiel kuom jotij magawano nyo oyudi nyoro ni nikod tuo mar Coronavirus bang pim manyocha otim kod komiti mochungne kedo gi tuo mar Coronavirusno e County ma Homa Bay kuno -pim manyocha otim chieng wuok tich	[{'start_byte': 123, 'limit_byte': 131, 'label': 'DATE'}, {'start_byte': 190, 'limit_byte': 208, 'label': 'LOC'}, {'start_byte': 219, 'limit_byte': 227, 'label': 'DATE'}, {'start_byte': 233, 'limit_byte': 249, 'label': 'DATE'}]	DATE: manyocha $$ LOC: County ma Homa Bay $$ DATE: manyocha $$ DATE: chieng wuok tich	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Homa Bay
+$ COUNTY: Homa Bay
+$ DISEASE: Coronavirus</s>"
+7	test-00002696	luo	Kanowuoyo ewii wachno jataa tije e magawa ma Blue Ridge Hotelno Hellen Oido nowacho ni gisebedo ka gikao jotich manyien ka gihikore godo ne yepo mar magawano bang lor mane olor godo magawa mapachoka nikech wach landruok mar tuo mar Covid-19 kowacho ni kakoro nyochane jatend piny Kenya migosi Uhuru Kenyatta ne oyao magawa mathurka kendo mondo jotii e bwo chike mager manyochane oketinegi to nyochane gineno ni gikau jii manyien emane gikawoe jagono ni to ne pok ondike ayanga gi magawano kaka jatich	[{'start_byte': 45, 'limit_byte': 63, 'label': 'ORG'}, {'start_byte': 64, 'limit_byte': 75, 'label': 'PER'}, {'start_byte': 280, 'limit_byte': 285, 'label': 'LOC'}, {'start_byte': 293, 'limit_byte': 307, 'label': 'PER'}]	ORG: Blue Ridge Hotelno $$ PER: Hellen Oido $$ LOC: Kenya $$ PER: Uhuru Kenyatta	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Blue Ridge Hotel
+$ PERSON: Hellen Oido
+$ ORGANIZATION: Covid-19
+$ PERSON: Uhuru Kenyatta
+$ LOCATION: Kenya
+$ ORGANIZATION: Amazon</s>"
+8	test-00002697	luo	Kanomedowuoyo ewii wachno mikai Oido nowacho ni magawa margino ok osebedo katiyo nikech pod ne gitemo mondo gichop chike mane oketigo mondo ekane giyepi ema koro nyochane gikawoe thuolo mar luongo apisas mochungne yoore thieth e County ma Homa Bay kuno chieng wuok tich mondo ne jobi opim jotijgi machon kod mane gikao manyien go mane jooro kwayo ni ne duaro tich kargi kanyo-mane odhi opim ne tuo mar Coronavirusno	[{'start_byte': 32, 'limit_byte': 36, 'label': 'PER'}, {'start_byte': 229, 'limit_byte': 247, 'label': 'LOC'}, {'start_byte': 253, 'limit_byte': 269, 'label': 'DATE'}]	PER: Oido $$ LOC: County ma Homa Bay $$ DATE: chieng wuok tich	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ LOCATION: Homa Bay
+$ COUNTY: Homa Bay
+$ JOBTITLE: Governor
+$ NAME: Kanokedwa
+$ ORGANIZATION: Government of Homa Bay
+$ PERSON: Kanokedwa</s>"
+9	test-00002698	luo	Kwan jii moyudi ni nikod tuo mar Coronavirus ei kawuononi gin jii 637	[{'start_byte': 48, 'limit_byte': 57, 'label': 'DATE'}]	DATE: kawuononi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Kwan $ LOCATION: Coronavirus $ ORGANIZATION: ei</s>"
+10	test-00002699	luo	Kwan jii ma oyudi kod tuo mar Coronavirus ei kawuononi gin 637 makoro kelo kwan jogo duto man kod tuo magalagalano e pachoka chopo jii alufu 14 gi 805	[{'start_byte': 45, 'limit_byte': 54, 'label': 'DATE'}]	DATE: kawuononi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kwan Jii Ma $ ORGANIZATION: Coronavirus $ LOCATION: Ei Kawuononi $ GIN: 637 Makoro Kelo $ MAGALAGALANO: 14 $ CHOPO: Jii Alufu $ LOCATION: 805</s>"
+11	test-00002700	luo	Magi ne oyangi kod jalup jatend migao mochungne yoore mag thieth e pachoka laktar Rashid Aman	[{'start_byte': 82, 'limit_byte': 93, 'label': 'PER'}]	PER: Rashid Aman	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Rashid Aman
+$ ORGANIZATION: Mag
+$ LOCATION: Mochungne</s>"
+12	test-00002701	luo	Kanowuoyo gi jopiny kachiel kachiel e tipo mar telebisen kowuok Afya House e boma ma Nairobika laktar Aman bende ne oyango ni nitie jii 10 mane tuono olal gi ngimagi ei kawuononi makoro kelo kwan jogo duto ma tuono osenego e thurka chopo jii 260	[{'start_byte': 64, 'limit_byte': 74, 'label': 'LOC'}, {'start_byte': 85, 'limit_byte': 94, 'label': 'LOC'}, {'start_byte': 102, 'limit_byte': 106, 'label': 'PER'}, {'start_byte': 169, 'limit_byte': 178, 'label': 'DATE'}]	LOC: Afya House $$ LOC: Nairobika $$ PER: Aman $$ DATE: kawuononi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ KANOWUOYO (organization)
+$ AFYA HOUSE (location)
+$ NAIROBI (location)
+$ LAKTAR (person)
+$ AMAN (person)
+$ ESTHER (person)</s>"
+13	test-00002702	luo	Aman bende nowacho ni County ma Nairobi emapod ne okao namba kuom bedo kod kwan maduong mag joma nigi midusi mar Covid-19no mane gin jii 342	[{'start_byte': 0, 'limit_byte': 4, 'label': 'PER'}, {'start_byte': 22, 'limit_byte': 39, 'label': 'LOC'}]	PER: Aman $$ LOC: County ma Nairobi	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Nairobi
+$ COUNTY: Nairobi
+$ OCAO: okao namba kuom bedo kod kwan maduong mag joma nigi midusi mar Covid-19
+$ NAMED_ENTITY: Aman
+$ NAMED_ENTITY: Covid-19</s>"
+14	test-00002703	luo	Bende ne oyangi ni nitie jii 499 mane ochango ei kawuononi ma owe odhi pacho kowacho ni kuom jogo, 403 ne gin jogo manyocha tuo to ne yudo thieth gie utegi mong' ere gi dho ngere kaka Home Based Care	[{'start_byte': 49, 'limit_byte': 58, 'label': 'DATE'}, {'start_byte': 115, 'limit_byte': 123, 'label': 'DATE'}]	DATE: kawuononi $$ DATE: manyocha	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Bende
+$ ORGANIZATION: Home Based Care
+$ LOCATION: Ochango
+$ PERSON: Manyocha
+$ LOCATION: New York</s>"
+15	test-00002704	luo	Maraga oyudo fuong' ruok	[{'start_byte': 0, 'limit_byte': 6, 'label': 'PER'}]	PER: Maraga	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+16	test-00002705	luo	Doho mar nyithindo owito oko bura ma yande ochwal miyo moro ma nyinge Mary Kwamboka ka ywak ni ogai mar bad migao mar doho justice David Maraga odagi kawo ting'  mar nyathi ma owacho ni ne ginyuolo kode.	[{'start_byte': 0, 'limit_byte': 18, 'label': 'ORG'}, {'start_byte': 70, 'limit_byte': 83, 'label': 'PER'}, {'start_byte': 131, 'limit_byte': 143, 'label': 'PER'}]	ORG: Doho mar nyithindo $$ PER: Mary Kwamboka $$ PER: David Maraga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: Mary Kwamboka
+$ PERSON: David Maraga
+$ ORGANIZATION: Amazon
+$ LOCATION: New York</s>"
+17	test-00002706	luo	Jayal bura Gerald Gitonga okoo ni burano ne onge kod mise motegno kaka ne ochwale e doho.	[{'start_byte': 11, 'limit_byte': 25, 'label': 'PER'}]	PER: Gerald Gitonga	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jayal
+$ PERSON: Gerald
+$ PERSON: Gitonga
+$ ORGANIZATION: onde kod mise
+$ LOCATION: Burano</s>"
+18	test-00002707	luo	Okil kamaloka Danstan Omari ma yalo e loo migosi David Maraga okoo ni bura ma nyocha miyono odhi mako e doho en ma miriambo nimar migosi maraga ok ong' eyo kata mana miyono.	[{'start_byte': 14, 'limit_byte': 27, 'label': 'PER'}, {'start_byte': 49, 'limit_byte': 61, 'label': 'PER'}, {'start_byte': 78, 'limit_byte': 84, 'label': 'DATE'}]	PER: Danstan Omari $$ PER: David Maraga $$ DATE: nyocha	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ Okil Kamaloka
+$ Danstan Omari
+$ Miyono Odhi
+$ Mako Edohe
+$ Miriambo Nimar
+$ Maraga Ong'e
+$ Esther</s>"
+19	test-00002708	luo	Mary Kwamboka yande okelo koko e kar aluora maar log tich mar bad migao mar doho ne wach onogo ma bende okinde mag Maraga ne okee kode ni otemo chuogo weche mag mirimabo.	[{'start_byte': 0, 'limit_byte': 13, 'label': 'PER'}, {'start_byte': 115, 'limit_byte': 121, 'label': 'PER'}]	PER: Mary Kwamboka $$ PER: Maraga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Mary Kwamboka
+$ ORGANIZATION: Kar
+$ LOCATION: Aluora
+$ PERSON: Magara
+$ LOCATION: Ma</s>"
+21	test-00002710	luo	Jii 3 moko ma oting'o nyithindo 2  mawuok e familia achiel ne jotho kanyo kanyo ka mamoko 3 to rem nego bang polo gogi e gwenge mag Achudinet ei Teso North	[{'start_byte': 132, 'limit_byte': 141, 'label': 'LOC'}, {'start_byte': 145, 'limit_byte': 155, 'label': 'LOC'}]	LOC: Achudinet $$ LOC: Teso North	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ JII (entity type: organization)
+$ MOKO (entity type: location)
+$ MAWUOK (entity type: person)
+$ EI TESO NORTH (entity type: location)</s>"
+22	test-00002711	luo	Kane oyango aidera mar wachno  jatend obila ma County ma Busia  Wambua Katithi nowacho ni masirano mane otimore kar saa  2 mar otieno mane piny oruugo kawuononi ne okelo tho mar nyimine 2 gi owadgi	[{'start_byte': 47, 'limit_byte': 62, 'label': 'LOC'}, {'start_byte': 64, 'limit_byte': 78, 'label': 'PER'}, {'start_byte': 116, 'limit_byte': 122, 'label': 'DATE'}, {'start_byte': 127, 'limit_byte': 133, 'label': 'DATE'}, {'start_byte': 151, 'limit_byte': 160, 'label': 'DATE'}]	LOC: County ma Busia $$ PER: Wambua Katithi $$ DATE: saa  2 $$ DATE: otieno $$ DATE: kawuononi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Kane Oyango
+$ COUNTY: Busia
+$ TOWN: Wambua
+$ RIVER: Katithi
+$ DATE: March 2nd
+$ TIME: morning
+$ DURATION: 2 days
+$ DESTINATION: New York
+$ PERSON: Esther</s>"
+23	test-00002712	luo	Jo familia achiel mane jothogo gin ja higni 9, ja higni 14 kod ja higni 20	[{'start_byte': 38, 'limit_byte': 45, 'label': 'DATE'}, {'start_byte': 50, 'limit_byte': 58, 'label': 'DATE'}, {'start_byte': 66, 'limit_byte': 74, 'label': 'DATE'}]	DATE: higni 9 $$ DATE: higni 14 $$ DATE: higni 20	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jo
+$ ORGANIZATION: Familia
+$ LOCATION: Achiel
+$ DATE: 9
+$ DATE: 14
+$ DATE: 20</s>"
+24	test-00002713	luo	Wambua nowacho ni jomanne johinyorego to ne oringgo e kar thieth ma kocholia	[{'start_byte': 0, 'limit_byte': 6, 'label': 'PER'}, {'start_byte': 54, 'limit_byte': 76, 'label': 'ORG'}]	PER: Wambua $$ ORG: kar thieth ma kocholia	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Wambua
+$ ORGANIZATION: none (no organization mentioned)
+$ LOCATION: none (no location mentioned)</s>"
+25	test-00002714	luo	Ng'anyo mar nurses mane ochan timo wuok tich koro ochwal nyime	[{'start_byte': 35, 'limit_byte': 44, 'label': 'DATE'}]	DATE: wuok tich	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Ng'anyo
+$ ORGANIZATION: tich koro ochwal
+$ LOCATION: Nyime</s>"
+26	test-00002715	luo	Riuruok mar Nurses mapachoka koro jochwalo nyime  ngányo margi mane onegobed ni chakore ayanga kiny wuok tich	[{'start_byte': 101, 'limit_byte': 110, 'label': 'DATE'}]	DATE: wuok tich	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Riuruok
+$ ORGANIZATION: Mar
+$ LOCATION: Koro</s>"
+27	test-00002716	luo	Riuruogno ne okao okang machalo kamano mar mondo mi gimi duol mochungne osach jotij piny owacho -Salaries and Remuneration Commission thuolo maber mar chopo dwach winjruok manegibedo godo kodgi mar medogi osara	[{'start_byte': 97, 'limit_byte': 133, 'label': 'ORG'}]	ORG: Salaries and Remuneration Commission	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Riuruogno
+$ ORGANIZATION: Salaries and Remuneration Commission
+$ LOCATION: Mondo</s>"
+28	test-00002717	luo	Kanowuoyo e boma ma Kakamega , jagoro maduong ma riuruogno migosi Seth Panyako nowacho ni ngányno koro gibirobago tarik 5 mar dwe mar 2 higa manyien	[{'start_byte': 12, 'limit_byte': 28, 'label': 'LOC'}, {'start_byte': 66, 'limit_byte': 78, 'label': 'PER'}, {'start_byte': 115, 'limit_byte': 149, 'label': 'DATE'}]	LOC: boma ma Kakamega $$ PER: Seth Panyako $$ DATE: tarik 5 mar dwe mar 2 higa manyien	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kanowuoyo
+$ LOCATION: Kakamega
+$ ORGANIZATION: migosi Seth Panyako
+$ DATE: 5 mar dwe mar 2 higa manyien</s>"
+29	test-00002718	luo	Bende riuruok mar nursesno ne duaro ni piny owacho owuo board mar NHIF kaluwore kod wach mibadhi ma okwako boardno	[{'start_byte': 56, 'limit_byte': 70, 'label': 'ORG'}]	ORG: board mar NHIF	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Bende
+$ ORGANIZATION: NHIF
+$ LOCATION: Kaluwore
+$ PERSON: Okwako</s>"
+30	test-00002719	luo	Meko mar apisas maka NHIF kod KPC ma weche mibadhi mako	[{'start_byte': 21, 'limit_byte': 25, 'label': 'ORG'}, {'start_byte': 30, 'limit_byte': 33, 'label': 'ORG'}]	ORG: NHIF $$ ORG: KPC	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+31	test-00002720	luo	Jotelo moko 3 mag kambi mar Kenya Pipeline manyo omaki nyoro nyo oter e apis obila mag okwach kich e apaya ma Kiambu Road buore Nairobika manyo odaye dhogi ne weche mag mibadhi ma makogi	[{'start_byte': 28, 'limit_byte': 42, 'label': 'ORG'}, {'start_byte': 110, 'limit_byte': 121, 'label': 'LOC'}, {'start_byte': 128, 'limit_byte': 137, 'label': 'LOC'}]	ORG: Kenya Pipeline $$ LOC: Kiambu Road $$ LOC: Nairobika	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Kiambu Road
+$ LOCATION: Nairobi
+$ ORGANIZATION: Kenya Pipeline</s>"
+32	test-00002721	luo	Jotelo manyo omakigo oting'o jataa tije ka kambi mar Kenya Pipelineno migosi Joe Sang , karan mare Gloria Khafafa  kod Vincecent Cheruiyot matiyo e bad migao mochungne ngíewo ka Kenya Pipeline kanyo	[{'start_byte': 53, 'limit_byte': 69, 'label': 'ORG'}, {'start_byte': 77, 'limit_byte': 85, 'label': 'PER'}, {'start_byte': 99, 'limit_byte': 113, 'label': 'PER'}, {'start_byte': 119, 'limit_byte': 138, 'label': 'PER'}, {'start_byte': 179, 'limit_byte': 193, 'label': 'ORG'}]	ORG: Kenya Pipelineno $$ PER: Joe Sang $$ PER: Gloria Khafafa $$ PER: Vincecent Cheruiyot $$ ORG: Kenya Pipeline	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Jotelo Manyo Omakigo
+$ ORGANIZATION: Kenya Pipeline
+$ LOCATION: Ka Kambi Mar
+$ PERSON: Joe Sang
+$ PERSON: Gloria Khafafa
+$ PERSON: Vincent Cheruiyot</s>"
+33	test-00002722	luo	To kumachielo bende apisas mamoko 7 ma jotiyo e board mochungne insurance mar thieth  ka NHIF bende nyo omaki	[{'start_byte': 89, 'limit_byte': 93, 'label': 'ORG'}]	ORG: NHIF	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Kumachielo
+$ BENDE: Apisas
+$ MAMAKO: 7
+$ MOCHUNGNE: Insurance
+$ NHIF</s>"
+35	test-00002724	luo	Apisas abiryogo  gin Mudzo Nzili mawuok e county ma Kwale ,Yussuf Ibrahiim , Simeon Kirgoty , Ruth Sudoi , Gilbert Kamau , Irene Rono kod Robert Mureithi	[{'start_byte': 21, 'limit_byte': 32, 'label': 'PER'}, {'start_byte': 42, 'limit_byte': 57, 'label': 'LOC'}, {'start_byte': 59, 'limit_byte': 74, 'label': 'PER'}, {'start_byte': 77, 'limit_byte': 91, 'label': 'PER'}, {'start_byte': 94, 'limit_byte': 104, 'label': 'PER'}, {'start_byte': 107, 'limit_byte': 120, 'label': 'PER'}, {'start_byte': 123, 'limit_byte': 133, 'label': 'PER'}, {'start_byte': 138, 'limit_byte': 153, 'label': 'PER'}]	PER: Mudzo Nzili $$ LOC: county ma Kwale $$ PER: Yussuf Ibrahiim $$ PER: Simeon Kirgoty $$ PER: Ruth Sudoi $$ PER: Gilbert Kamau $$ PER: Irene Rono $$ PER: Robert Mureithi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Yussuf Ibrahiim
+$ PERSON: Simeon Kirgoty
+$ PERSON: Ruth Sudoi
+$ PERSON: Gilbert Kamau
+$ PERSON: Irene Rono
+$ ORGANIZATION: Kwale County
+$ LOCATION: Kwale</s>"
+36	test-00002725	luo	Pes bursary ma County ma Homa Bay koro oyudo mijing'o	[{'start_byte': 15, 'limit_byte': 33, 'label': 'LOC'}]	LOC: County ma Homa Bay	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Pes
+$ COUNTY: Homa Bay
+$ KORO: oyudo
+$ MIJING'O: mijing'o</s>"
+37	test-00002726	luo	Bunge mar County ma Homa Bay koro otimo lokruok ne chike matayo weche mag chiwo bursary mag somo mongere kaka Education Bursary Fund Ammendment bill 2018 mabiro konyo neno ni jogo ma odak gi ng'ol bende onyuandi e komiti mochungne bursary  kod konyo neno ni bursaryno ipogo e yoo mowinjore maonge mibadhi moro amora	[{'start_byte': 10, 'limit_byte': 28, 'label': 'LOC'}, {'start_byte': 149, 'limit_byte': 153, 'label': 'DATE'}]	LOC: County ma Homa Bay $$ DATE: 2018	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ LOCATION: Homa Bay $ ORGANIZATION: Education Bursary Fund $ AMENDMENT BILL: 2018 $ PERSON: Ng'ol Bende</s>"
+38	test-00002727	luo	Kanyowuoyo ewii wachno jakom komiti mochungne yoore mag somo migosi James Okeyo nyowacho ni okang ma gikao mar timo lokruok ne chikego biro  neno ni komiti mochungne bursaryno oting'o girube duto mondo eka koro  bursaryno inyalo pogo ne nyiithindo duto maonge gi nyalo mawuok e wards 40 duto ma Homa Bay kuno	[{'start_byte': 68, 'limit_byte': 79, 'label': 'PER'}, {'start_byte': 295, 'limit_byte': 303, 'label': 'LOC'}]	PER: James Okeyo $$ LOC: Homa Bay	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ NAME: James Okeyo
+$ ORGANIZATION: Komiti Mochungne
+$ LOCATION: Homa Bay
+$ BURSARY: bursaryno
+$ PERSON: Oting'o Girube</s>"
+39	test-00002728	luo	To bende kanyowuoyo ewii wach achiel nogono MCA ma Kabondo East  migosi Ochieng nyowacho ni komiti mar bunge mar County mochungne weche mag somo oseiko  yoore mabecho ka jomakore gi bad migao mochungne somo e County ma Homa Bay kuno mar neno ni jokanyo manyien mag komiti mar bursaryno jotayo chenro mag pogo pes bursaryno  e yoo mowinjore	[{'start_byte': 51, 'limit_byte': 63, 'label': 'LOC'}, {'start_byte': 72, 'limit_byte': 79, 'label': 'PER'}, {'start_byte': 209, 'limit_byte': 227, 'label': 'LOC'}]	LOC: Kabondo East $$ PER: Ochieng $$ LOC: County ma Homa Bay	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: Ochieng $ COUNTY: Kabondo East $ MCA: migosi $ LOCATION: Homa Bay</s>"
+40	test-00002729	luo	Nyo oyango ni wards 40 mag County ma Homa Baygo oketnegi  omenda maromo silings million 2.5 mar hik manyonge mar 2018/2019  kowuok e silings million 1.5 mane entieree e budget mokalo mar neno ni nyithindo duto maonge gi nyalo joyudo pes bursaryno	[{'start_byte': 27, 'limit_byte': 47, 'label': 'LOC'}, {'start_byte': 96, 'limit_byte': 108, 'label': 'DATE'}, {'start_byte': 113, 'limit_byte': 122, 'label': 'DATE'}]	LOC: County ma Homa Baygo $$ DATE: hik manyonge $$ DATE: 2018/2019	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Wards $ COUNTY: Homa Bay $ YEAR: 2018/2019 $ BUDGET: 2.5 million $ MONEY: 1.5 million</s>"
+41	test-00002730	luo	MCAno nyowacho ni form mag bursaryno birobedo  eskunde duto mag piny owacho e Countyno mangima mar mondo mi ochiu thuolo mayot ne jopuonjre maonge gi nyalo e yudo formsgo ka obi oyau school e dwe mar 1 mar higa manyien mar oro kwayo mar yudo bursaryno	[{'start_byte': 206, 'limit_byte': 218, 'label': 'DATE'}]	DATE: higa manyien	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: MCAno
+$ ORGANIZATION: bursary
+$ LOCATION: Countyno
+$ PERSON: mangima
+$ ORGANIZATION: marondo
+$ LOCATION: mi ochiu
+$ PERSON: thuolo
+$ ORGANIZATION: jopuonjre
+$ LOCATION: maonge
+$ PERSON: gi nyalo
+$ ORGANIZATION: eskunde
+$ LOCATION: dwe
+$ PERSON: mar higa
+$ ORGANIZATION: manyien
+$ LOCATION: yo</s>"
+42	test-00002731	luo	Odinga seyo MCAs kuom chamo pes jopiny	[{'start_byte': 0, 'limit_byte': 6, 'label': 'PER'}]	PER: Odinga	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Odinga
+$ ORGANIZATION: MCA
+$ LOCATION: chamo</s>"
+43	test-00002732	luo	Jatend duond bura mar ODM migosi Raila Amolo Odinga kawuono oseyo malit mokalo MCAS kuom tiyo marach gi omenda jopiny moketi mag weche dongruok	[{'start_byte': 22, 'limit_byte': 25, 'label': 'ORG'}, {'start_byte': 33, 'limit_byte': 51, 'label': 'PER'}, {'start_byte': 52, 'limit_byte': 59, 'label': 'DATE'}]	ORG: ODM $$ PER: Raila Amolo Odinga $$ DATE: kawuono	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Raila Amolo Odinga
+$ ORGANIZATION: ODM (Orange Democratic Movement)
+$ LOCATION: Migosi
+$ PERSON: Jatend
+$ ORGANIZATION: MCAS (Migosi Community Action Society)</s>"
+44	test-00002733	luo	Kanomedowuoyo ewii wachno migosi Raila nowacho ni tend  loch gwenge kata devolution ne okel e Pachoka mar konyo neno ni mwandu duto mapachoka ipogo marom ne gwenge duto mathurka	[{'start_byte': 33, 'limit_byte': 38, 'label': 'PER'}]	PER: Raila	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Raila
+$ ORGANIZATION: Pachoka
+$ LOCATION: Migosi</s>"
+46	test-00002735	luo	Migosi Raila nowacho ni MCAS  osebedo ka kuodo wii jii gi lweny ma gisiko godo e kinde ka kinde kar tiyone jopiny mane oyierogi	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: Raila	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Raila
+$ ORGANIZATION: MCAS
+$ LOCATION: kiinde</s>"
+48	test-00002737	luo	Kanowuoyo Kisumu migosi Raila nowacho ni MCA  mag counties ma Kisumu, Homa Bay, Nairobi  kod Kakamega gin jogo ma jowuok oko mar nego devolution chutho mar neno ni devolution ok okelo ber moro amora e thurka	[{'start_byte': 10, 'limit_byte': 16, 'label': 'LOC'}, {'start_byte': 24, 'limit_byte': 29, 'label': 'PER'}, {'start_byte': 62, 'limit_byte': 68, 'label': 'LOC'}, {'start_byte': 70, 'limit_byte': 78, 'label': 'LOC'}, {'start_byte': 80, 'limit_byte': 87, 'label': 'LOC'}, {'start_byte': 93, 'limit_byte': 101, 'label': 'LOC'}]	LOC: Kisumu $$ PER: Raila $$ LOC: Kisumu $$ LOC: Homa Bay $$ LOC: Nairobi $$ LOC: Kakamega	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAMED_ENTITIES = (
+    ""Raila"",
+    ""Kisumu"",
+    ""Homa Bay"",
+    ""Nairobi"",
+    ""Kakamega""
+)</s>"
+49	test-00002738	luo	Nowacho ni winjruok margi mongére kaka Building Bridges Initiative sani luorore e tung Kenya mangima ka choko pach jopiny ewii kaka inyalotieko weche mag jotelo chamo pes jopinygo	[{'start_byte': 68, 'limit_byte': 72, 'label': 'DATE'}, {'start_byte': 88, 'limit_byte': 93, 'label': 'LOC'}]	DATE: sani $$ LOC: Kenya	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Kenya
+$ ORGANIZATION: Building Bridges Initiative
+$ PERSON: Margie</s>"
+50	test-00002739	luo	Chike mar apaya ibiro rido e gwenge ma nyanza e nyasi mar christmas	[{'start_byte': 39, 'limit_byte': 45, 'label': 'LOC'}]	LOC: nyanza	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Chike
+$ LOCATION: Nyanza
+$ EVENT: Christmas</s>"
+51	test-00002740	luo	Apisa mag obila mag wangapaya koro omi chik mar chwalo nyime kendo rido chike mag wangapaya e kinde nyasi mar christmas e counties 6  mag nyanza	[{'start_byte': 138, 'limit_byte': 144, 'label': 'LOC'}]	LOC: nyanza	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Apisa
+$ ORGANIZATION: Mag
+$ PERSON: Obila
+$ LOCATION: Wangapaya
+$ ORGANIZATION: Koro
+$ PERSON: Omi
+$ LOCATION: Chik
+$ ORGANIZATION: Mar
+$ PERSON: Nyime
+$ LOCATION: Kendo
+$ ORGANIZATION: Rido
+$ PERSON: Chike
+$ LOCATION: Nyanza
+$ EVENT: Christmas
+$ COUNTY: 6</s>"
+52	test-00002741	luo	kamishna mar apisas e gwenge go  migosi Moffat Kingi wacho ni yore duto madongo to kod matindo e counties ma Kisumu Kisii Nyamira Homabay Siaya to kod Migori ibiro chwale apisas mag obila mar neno ni chike mag wangapaya oluu kaka dwarore	[{'start_byte': 40, 'limit_byte': 52, 'label': 'PER'}, {'start_byte': 109, 'limit_byte': 143, 'label': 'LOC'}, {'start_byte': 151, 'limit_byte': 157, 'label': 'LOC'}]	PER: Moffat Kingi $$ LOC: Kisumu Kisii Nyamira Homabay Siaya $$ LOC: Migori	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ KISUMU
+$ KIISI
+$ NYAMIRA
+$ HOMABAY
+$ SIALA
+$ MIGORI
+$ DAVID
+$ AMAZON
+$ NEW YORK
+$ ESTHER</s>"
+54	test-00002743	luo	migosi kingi wacho ni kata e kor gwenge bende apisas biro bedo mar neno ninjo apiko ochikore tir gi chike ma apaya ka okang makama en mar duoko piny masiche mag apaya mano maweyo ka thoth oganda wito ngimagi .	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: kingi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Migosi Kingi
+$ ORGANIZATION: Biro Bedo Mar Neno Ninjo Apiko Ochikore Tir Gi Chike Ma Apaya Ka Okang Makama En Mar Duoko Piny Masiche Mag Apaya Mano Maweyo Ka Thoth Oganda Wito Ngimagi
+$ LOCATION: New York</s>"
+55	test-00002744	luo	migosi kingi ne owaco ni weg nyamburko matingo jowuoth e kinde nyasi mar christamas nyaka bed kod obok madwarore mar chwalo jowuoth e pachoka	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: kingi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: Migosi Kingi
+$ ORGANIZATION: Weg Nyamburko Matingo
+$ LOCATION: Kinde Nyasi
+$ EVENT: Christamas Nyaka Bed Kod Obok Madwarore
+$ PERSON: Mar Chwalo Jowuoth
+$ LOCATION: Pachoka</s>"
+56	test-00002745	luo	Raila okwayo jodak owuog oko kendo ruako ker kenyataa	[{'start_byte': 0, 'limit_byte': 5, 'label': 'PER'}, {'start_byte': 45, 'limit_byte': 53, 'label': 'PER'}]	PER: Raila $$ PER: kenyataa	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Raila
+$ ORGANIZATION: Okwayo
+$ LOCATION: Kenya</s>"
+57	test-00002746	luo	Ogai mar nasa Raila Amolo Odinga koro okwayo jodak  e county ma kisumu mondo mii oikore mar rwako ker Kenyataa e kinde ma obiro wendo bomano machiegni e dwe marapar gariyo limbeno  mokuongo mar ker kenyataa chakre yiero ma higa mokalo to kod tok mosruok e kindgi dwe mar adek higani	[{'start_byte': 9, 'limit_byte': 13, 'label': 'ORG'}, {'start_byte': 14, 'limit_byte': 32, 'label': 'PER'}, {'start_byte': 54, 'limit_byte': 70, 'label': 'LOC'}, {'start_byte': 102, 'limit_byte': 110, 'label': 'PER'}, {'start_byte': 198, 'limit_byte': 206, 'label': 'PER'}]	ORG: nasa $$ PER: Raila Amolo Odinga $$ LOC: county ma kisumu $$ PER: Kenyataa $$ PER: kenyataa	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Ogai $ COUNTY: Kisumu $ CITY: Nairobi $ PERSON: Raila Amolo Odinga $ ORGANIZATION: Kenyatta</s>"
+58	test-00002747	luo	migosi Odinga maneloso e boma ma kisumu odiochieng makawuono ne owacho kinde ochopo mar riwruok kendo keto tenge pogruok e kind oganda  ka iriwo  oganda jokenya mano maomiyo ne okao okang mag romo gi ker kenyataa kend singo tiyo kanyakla mar riwo oganda bang mosruok e kindgi	[{'start_byte': 7, 'limit_byte': 13, 'label': 'PER'}, {'start_byte': 25, 'limit_byte': 39, 'label': 'LOC'}, {'start_byte': 51, 'limit_byte': 60, 'label': 'DATE'}, {'start_byte': 204, 'limit_byte': 212, 'label': 'PER'}]	PER: Odinga $$ LOC: boma ma kisumu $$ DATE: makawuono $$ PER: kenyataa	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Odinga
+$ LOCATION: Kisumu
+$ ORGANIZATION: Owacho Kinde
+$ PERSON: Ochopo Mar Riwruok
+$ LOCATION: Kindogi
+$ ORGANIZATION: Ker Kinyattta
+$ PERSON: Kend Singo Tiyo
+$ LOCATION: Kenya</s>"
+59	test-00002748	luo	Ne bende oyango mago ma winjruok e kinde to kod ker Kenyataa geto mar chopo e pachoka mar neno ni jokenya oriwore kedno obedo e achiel mano mani e buo chenro mar building initiatives ma duol manochuogi osechako limo gwenge ma pachoka mar yudo dho oganda e wi chenro makama mar jotelo ariyogi	[{'start_byte': 52, 'limit_byte': 60, 'label': 'PER'}]	PER: Kenyataa	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kenyataa
+$ ORGANIZATION: Kod Ker
+$ LOCATION: Kinde
+$ PERSON: Orywore
+$ ORGANIZATION: Achiel Mano Mani
+$ LOCATION: Building Initiatives
+$ PERSON: Duol Manochuogi
+$ LOCATION: Osechako Limo Gwenge
+$ PERSON: Jotelo Ariyogi</s>"
+60	test-00002749	luo	kwayo makama ne oganda jo county ma kisumu biro ndalo machuok kende bang senator ma Kisumu migosi Fred Outa bende ne kwayo jodak mond owuog kar rombgi kendo rwako jotelo ariyogi	[{'start_byte': 26, 'limit_byte': 42, 'label': 'LOC'}, {'start_byte': 84, 'limit_byte': 90, 'label': 'LOC'}, {'start_byte': 98, 'limit_byte': 107, 'label': 'PER'}]	LOC: county ma kisumu $$ LOC: Kisumu $$ PER: Fred Outa	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Kisumu
+$ COUNTY: Kisumu
+$ BIRO: Kisumu
+$ SENATOR: Fred Outa
+$ PERSON: Kwayo Makama</s>"
+61	test-00002750	luo	Media Council of Kenya chano bago lalruok e kind obila gi jofuamb weche	[{'start_byte': 0, 'limit_byte': 22, 'label': 'ORG'}]	ORG: Media Council of Kenya	"  Sure! Here are the named entities in your passage:
+
+$ ORGANIZATION: Media Council of Kenya
+$ LOCATION: Kenya</s>"
+62	test-00002751	luo	Duol matayo ute fwambo mapachoka mabende ongére kaka The Media Council of Kenya koro jochano bago lalruok makende e kind apisas mag obila kod ute fwambo mathurka  kaka yoo mar neno ni winjruok maber  obedo e kind kweth ariyogo mar  neno ni ginyalotiyo kanyakla	[{'start_byte': 54, 'limit_byte': 80, 'label': 'ORG'}]	ORG: The Media Council of Kenya	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Duol $ ORGANIZATION: Media Council of Kenya $ LOCATION: Kenya $ PERSON: Mathurka $ PERSON: Esther</s>"
+63	test-00002752	luo	Kanowuoyo ewii wachno jalup jataa tije e duondno migosi Victor Bwire nowacho ni okang makama ochope bang weche yangore ni okak maduong  medore  e kind jofwambo to kod apisas mag obila	[{'start_byte': 56, 'limit_byte': 68, 'label': 'PER'}]	PER: Victor Bwire	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Victor Bwire
+$ ORGANIZATION: unknown
+$ LOCATION: unspecified
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with.</s>"
+64	test-00002753	luo	Migosi Bwire nowacho ni e kinde mokalogi  jofwambo osebed ka imonjo kod obila ka mamoko to otam katamana etimo tijegi gi obila mabende osekelo winjruok mararacha mokalo e kind jofuamb weche gi obila kakoro gidwaro bago lalruok makende e kind kweth ariyogo mar kelogi kanyakla e yoore mag tich	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: Bwire	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Bwire
+$ ORGANIZATION: Jofwambo
+$ LOCATION: Otam
+$ PERSON: Estimo Tijegi
+$ ORGANIZATION: Obila Mabende
+$ LOCATION: Winjruok Mararacha
+$ PERSON: Kakoro Gidwaro
+$ ORGANIZATION: Bago Lalruok Makende
+$ LOCATION: Kind</s>"
+65	test-00002754	luo	Jatelono mane loso e boma ma Siaya e romo mane obedo godo gi jofuamb weche ne owacho ni lalruok machalo kamano birochakore e higa manyien	[{'start_byte': 21, 'limit_byte': 34, 'label': 'LOC'}, {'start_byte': 125, 'limit_byte': 137, 'label': 'DATE'}]	LOC: boma ma Siaya $$ DATE: higa manyien	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Siaya
+$ ORGANIZATION: Romo
+$ PERSON: Jatelono</s>"
+67	test-00002756	luo	Jodolo ma Kisumu jogolo pachgi ewii limbe ma Ker Uhuru dhi timo Kisumu	[{'start_byte': 10, 'limit_byte': 16, 'label': 'LOC'}, {'start_byte': 49, 'limit_byte': 54, 'label': 'PER'}, {'start_byte': 64, 'limit_byte': 70, 'label': 'LOC'}]	LOC: Kisumu $$ PER: Uhuru $$ LOC: Kisumu	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Kisumu
+$ ORGANIZATION: Ker Uhuru
+$ PERSON: Jodolo</s>"
+68	test-00002757	luo	Jodolo ma Kisumu koro jokwayo jopiny mondo jobi owuog oko kar rombgi e juma manyien ma igeno ni Ker Uhuru Kenyatta biro dhi sidhoe ayanga chenro moro mar yoore thieth  mongére kaka The Universal Health Coverage e boma ma Kisumu kuno	[{'start_byte': 10, 'limit_byte': 16, 'label': 'LOC'}, {'start_byte': 71, 'limit_byte': 83, 'label': 'DATE'}, {'start_byte': 100, 'limit_byte': 114, 'label': 'PER'}, {'start_byte': 214, 'limit_byte': 228, 'label': 'LOC'}]	LOC: Kisumu $$ DATE: juma manyien $$ PER: Uhuru Kenyatta $$ LOC: boma ma Kisumu	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Ker Uhuru Kenyatta
+$ ORGANIZATION: Universal Health Coverage
+$ LOCATION: Kisumu
+$ LOCATION: New York</s>"
+69	test-00002758	luo	Kanowuoyo ewii wachno jakom riuruok kanise ma Nyanza Arch Bishop Ogonyo Ngede nowacho ni gwenge mag Nyanza sani joneno ber mosruok ma Ker Uhuru ne jomosore godo gi ogai mar NASA migosi Raila Amolo Odinga esechegi mabende igenoe ni ker biro wendo nyaka Bondo Sub County bende	[{'start_byte': 28, 'limit_byte': 52, 'label': 'ORG'}, {'start_byte': 65, 'limit_byte': 77, 'label': 'PER'}, {'start_byte': 100, 'limit_byte': 106, 'label': 'LOC'}, {'start_byte': 107, 'limit_byte': 111, 'label': 'DATE'}, {'start_byte': 138, 'limit_byte': 143, 'label': 'PER'}, {'start_byte': 173, 'limit_byte': 177, 'label': 'ORG'}, {'start_byte': 185, 'limit_byte': 203, 'label': 'PER'}, {'start_byte': 252, 'limit_byte': 268, 'label': 'LOC'}]	ORG: riuruok kanise ma Nyanza $$ PER: Ogonyo Ngede $$ LOC: Nyanza $$ DATE: sani $$ PER: Uhuru $$ ORG: NASA $$ PER: Raila Amolo Odinga $$ LOC: Bondo Sub County	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Kanowuoyo
+$ NAME: Ewii
+$ NAME: Wachno
+$ NAME: Jakom
+$ NAME: Riuruok
+$ NAME: Kanise
+$ NAME: Ma Nyanza
+$ NAME: Arch Bishop Ogonyo Ngede
+$ NAME: Nowacho
+$ NAME: Ni Gwenge
+$ NAME: Mag Nyanza
+$ NAME: Sani Joneno
+$ NAME: Ber Mosruok
+$ NAME: Ma Ker Uhuru
+$ NAME: Ne Jomosore
+$ NAME: Godo Gi Ogae
+$ NAME: Mar NASA
+$ NAME: Migosi
+$ NAME: Raila Amolo Odinga
+$ NAME: Esechegi
+$ NAME: Mabende
+$ NAME: Igenoe
+$ NAME: Ker Biro
+$ NAME: Wendo Nyaka
+$ NAME: Bondo Sub County</s>"
+70	test-00002759	luo	To kumachielo bende jaod bura migosi Martin Owino kawuono ogoo dhoge piny ka opako okang ma Ker Uhuru kenyatta okao mar keto yoore mag thieth nyime moloyo e agenda meke mag dongruok mongére kaka Big 4 Agenda	[{'start_byte': 37, 'limit_byte': 49, 'label': 'PER'}, {'start_byte': 50, 'limit_byte': 57, 'label': 'DATE'}, {'start_byte': 96, 'limit_byte': 110, 'label': 'PER'}]	PER: Martin Owino $$ DATE: kawuono $$ PER: Uhuru kenyatta	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Martin Owino
+$ ORGANIZATION: Ker Uhuru Kenyatta
+$ LOCATION: Kenya
+$ AGENDA: Big 4 Agenda</s>"
+71	test-00002760	luo	Kanowuoyo gi Radio Ramogi migosi Owino nowacho ni kaka jakanyo mar komiti mar od bura mochungne weche mag thieth e County ma Mgori kod Homa Bay omor mokalo gi okang ma Ker Uhuru okao mar duaro dongo yoore mag thieth e pachoka to moloyo to egwenge mag Luo Nyanza kuom chiuruok mar duaro dhi wendo boma ma Kisumu dhi yao ayanga chenro moro mar thieth motisi ni The Universal Health Coverage kowacho ni piny ma dhano ngimae e piny manyalobedo kod dongruok mowinjore	[{'start_byte': 13, 'limit_byte': 25, 'label': 'ORG'}, {'start_byte': 33, 'limit_byte': 38, 'label': 'PER'}, {'start_byte': 115, 'limit_byte': 130, 'label': 'LOC'}, {'start_byte': 135, 'limit_byte': 143, 'label': 'LOC'}, {'start_byte': 172, 'limit_byte': 177, 'label': 'PER'}, {'start_byte': 251, 'limit_byte': 261, 'label': 'LOC'}, {'start_byte': 296, 'limit_byte': 310, 'label': 'LOC'}]	ORG: Radio Ramogi $$ PER: Owino $$ LOC: County ma Mgori $$ LOC: Homa Bay $$ PER: Uhuru $$ LOC: Luo Nyanza $$ LOC: boma ma Kisumu	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ COUNTY: Homa Bay
+$ CITY: Kisumu
+$ RIVER: Lake Victoria
+$ PERSON: Kanowuoyo
+$ PERSON: Migosi Owino
+$ ORGANIZATION: Radio Ramogi
+$ LOCATION: Mgori
+$ PERSON: Ker Uhuru
+$ EVENT: Universal Health Coverage</s>"
+72	test-00002761	luo	Bende jatelono nowacho ni osiro ogai mar NASA migosi Raila Amolo Odinga kuom ruako Ker Uhuru Kisumu tarik 13 mar dweni ma odhi yawoe ayanga chenro mar thiethno gi nyasi tee mane otiso ni mar Luo Nation	[{'start_byte': 41, 'limit_byte': 45, 'label': 'ORG'}, {'start_byte': 53, 'limit_byte': 71, 'label': 'PER'}, {'start_byte': 87, 'limit_byte': 92, 'label': 'PER'}, {'start_byte': 93, 'limit_byte': 99, 'label': 'LOC'}, {'start_byte': 100, 'limit_byte': 118, 'label': 'DATE'}]	ORG: NASA $$ PER: Raila Amolo Odinga $$ PER: Uhuru $$ LOC: Kisumu $$ DATE: tarik 13 mar dweni	"  Sure! Here are the named entities in your passage:
+
+$ NAME: Raila Amolo Odinga
+$ NAME: Uhuru Kenyatta
+$ PLACE: Kisumu
+$ PLACE: Nairobi
+$ ETHNICITY: Luo</s>"
+73	test-00002762	luo	Khalwale dwaro mondo oriemb Raila Odinga e duond bura mar ODM	[{'start_byte': 0, 'limit_byte': 8, 'label': 'PER'}, {'start_byte': 28, 'limit_byte': 40, 'label': 'PER'}, {'start_byte': 58, 'limit_byte': 61, 'label': 'ORG'}]	PER: Khalwale $$ PER: Raila Odinga $$ ORG: ODM	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Raila Odinga
+$ ORGANIZATION: ODM</s>"
+74	test-00002763	luo	Senator machon mar county ma Kakamega migosi Boni Khalwale koro kwayo jood bura mag ODM mondo mii oriemb ogai mar nasa raila amolo odinga e duond burano.	[{'start_byte': 19, 'limit_byte': 37, 'label': 'LOC'}, {'start_byte': 45, 'limit_byte': 58, 'label': 'PER'}, {'start_byte': 84, 'limit_byte': 87, 'label': 'ORG'}, {'start_byte': 114, 'limit_byte': 118, 'label': 'ORG'}, {'start_byte': 119, 'limit_byte': 137, 'label': 'PER'}]	LOC: county ma Kakamega $$ PER: Boni Khalwale $$ ORG: ODM $$ ORG: nasa $$ PER: raila amolo odinga	"  Sure! Here are the named entities in your passage:
+
+$ SENATOR: Machon $ COUNTY: Mar $ CITY: Kakamega $ MIGOSI: Boni Khalwale $ KORO: Kwayo $ JOOD: Bura $ MAG: ODM $ MONDO: Mii $ ORIEMB: Ogai $ NASAA: Raila Amolo Odinga $ DUOND: Burano</s>"
+75	test-00002764	luo	ma en bang kamati ma ochungne chike to kod kum e duond bur mar odm ne golo paro mar dwaro riembo jaod bura ma malindi mikayi Aisha Jumwa kod jaod bura ma Msambweni Suleiman Dori kaluore kod weche mag rem luwo chike mag ODM kendo bedo gi tok teko	[{'start_byte': 63, 'limit_byte': 66, 'label': 'ORG'}, {'start_byte': 110, 'limit_byte': 117, 'label': 'LOC'}, {'start_byte': 125, 'limit_byte': 136, 'label': 'PER'}, {'start_byte': 154, 'limit_byte': 163, 'label': 'LOC'}, {'start_byte': 164, 'limit_byte': 177, 'label': 'PER'}, {'start_byte': 219, 'limit_byte': 222, 'label': 'ORG'}]	ORG: odm $$ LOC: malindi $$ PER: Aisha Jumwa $$ LOC: Msambweni $$ PER: Suleiman Dori $$ ORG: ODM	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Aisha Jumwa
+$ PERSON: Suleiman Dori
+$ LOCATION: Msambweni
+$ ORGANIZATION: ODM</s>"
+76	test-00002765	luo	kaluore kod khalwale migosi Odinga oseriwore kod Ker Kenyatta mano mawuok e duond bura mar jubilee kendo singo tiyo kode kanyakla omiyo en bende onego kao ne ondamo mag chiik.	[{'start_byte': 12, 'limit_byte': 20, 'label': 'PER'}, {'start_byte': 28, 'limit_byte': 34, 'label': 'PER'}, {'start_byte': 53, 'limit_byte': 61, 'label': 'PER'}, {'start_byte': 91, 'limit_byte': 98, 'label': 'ORG'}]	PER: khalwale $$ PER: Odinga $$ PER: Kenyatta $$ ORG: jubilee	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ KENYA
+$ UHURU KENYATTA
+$ RAILA ODINGA
+$ JUBILEE
+$ MIGOSI ODINGA
+$ KER KENYATTA</s>"
+77	test-00002766	luo	jood bura ariyogi kaachiel kod mcas abiriyo igeno mar molo enyim kamatai matayo duond bura mar odm e kenya mangima mar  chiwo dhog gi to kod ngeyo okang mogik mibiro kaonegi	[{'start_byte': 95, 'limit_byte': 98, 'label': 'ORG'}]	ORG: odm	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: jood $ BURA $ ARIYOGI $ KACHIELL $ KOD $ MCASB $ ABIRII $ YO $ GENO $ MAR $ MOLO $ ENYIM $ KAMATAI $ MATAYO $ DUOND $ BURA $ MAR $ ODM $ E KENYA $ MANGIMA $ CHIWO $ DHOG $ GI $ TO $ KOD $ NGEYO $ OKANG $ MIBIRO $ KAONEGi</s>"
+78	test-00002767	luo	ODM OKWEDO WINJRUOK GI WIPER	[{'start_byte': 0, 'limit_byte': 3, 'label': 'ORG'}, {'start_byte': 23, 'limit_byte': 28, 'label': 'ORG'}]	ORG: ODM $$ ORG: WIPER	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+79	test-00002768	luo	Duond bura mar ODM okwedo mokalo wach moro ni nitie winjruok moro malingling mar dhi e yiero kaka twech achiel gi duond buch WIPER.	[{'start_byte': 15, 'limit_byte': 18, 'label': 'ORG'}, {'start_byte': 125, 'limit_byte': 130, 'label': 'ORG'}]	ORG: ODM $$ ORG: WIPER	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Duond
+$ ORGANIZATION: ODM
+$ LOCATION: wach moro
+$ PERSON: nitie winjruok
+$ LOCATION: malingling
+$ ORGANIZATION: dhi e yiero
+$ PERSON: Achiel</s>"
+80	test-00002769	luo	Maeri en bang'  Kalonzo Musyoka ma en jatend wiper, e twak moro mar oboke ma pacho kae   wacho ni giseketo kogno e winjruok en kod Raila Odinga e wi yiero mabiro.	[{'start_byte': 16, 'limit_byte': 31, 'label': 'PER'}, {'start_byte': 45, 'limit_byte': 50, 'label': 'ORG'}, {'start_byte': 131, 'limit_byte': 143, 'label': 'PER'}]	PER: Kalonzo Musyoka $$ ORG: wiper $$ PER: Raila Odinga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Maeri
+$ NAME: Kalonzo Musyoka
+$ ORGANIZATION: Wiper Party
+$ LOCATION: Kenya
+$ NAME: Raila Odinga</s>"
+81	test-00002770	luo	ODM kata kamano okwedo wach ma kamano ka giwacho ni winjruok ma kamano pok nobedo.	[{'start_byte': 0, 'limit_byte': 3, 'label': 'ORG'}]	ORG: ODM	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+82	test-00002771	luo	Jagoro maduong mar odm Edwin Sifuna,  olero na Kalonzo, Mudavadi kod Wetangula ema ne jopodho NASA bang panjo ne nyasi mag sidho Raila Odinga kaka jatend oganda.	[{'start_byte': 19, 'limit_byte': 22, 'label': 'ORG'}, {'start_byte': 23, 'limit_byte': 35, 'label': 'PER'}, {'start_byte': 47, 'limit_byte': 54, 'label': 'PER'}, {'start_byte': 56, 'limit_byte': 64, 'label': 'PER'}, {'start_byte': 69, 'limit_byte': 78, 'label': 'PER'}, {'start_byte': 94, 'limit_byte': 98, 'label': 'ORG'}, {'start_byte': 129, 'limit_byte': 141, 'label': 'PER'}]	ORG: odm $$ PER: Edwin Sifuna $$ PER: Kalonzo $$ PER: Mudavadi $$ PER: Wetangula $$ ORG: NASA $$ PER: Raila Odinga	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jagoro Maduong
+$ PERSON: Edwin Sifuna
+$ ORGANIZATION: NASA
+$ PERSON: Kalonzo
+$ PERSON: Mudavadi
+$ PERSON: Wetangula
+$ PERSON: Raila Odinga</s>"
+84	test-00002773	luo	Riwruok mar bisobe makopere  kokalo kuom chenro mar komesha tuberclosis, dhi nyime gi puonjo jodak ma Kisumo  e wi dwaro mar dhi e pim mar tuo kaherano.	[{'start_byte': 102, 'limit_byte': 108, 'label': 'LOC'}]	LOC: Kisumo	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Riwruok
+$ LOCATION: Kisumo
+$ ORGANIZATION: makopere</s>"
+85	test-00002774	luo	Kweth ma kamano notero kampen ma kamano e boma ma awasi  kama nopuonj jo ohala ber mar dhi e pim e osiptal.	[{'start_byte': 42, 'limit_byte': 55, 'label': 'LOC'}]	LOC: boma ma awasi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+86	test-00002775	luo	Coordinator mar tuo kahera e county ma kisumo timothy malika, owacho ni maromo jii 2500 sani dhi nyime gi yudo thieth mar tuo  kahera e countino.	[{'start_byte': 29, 'limit_byte': 45, 'label': 'LOC'}, {'start_byte': 46, 'limit_byte': 60, 'label': 'PER'}, {'start_byte': 88, 'limit_byte': 92, 'label': 'DATE'}]	LOC: county ma kisumo $$ PER: timothy malika $$ DATE: sani	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ KAHERA E COUNTINO (County)
+$ MAR TUO (Timothy)
+$ MALIKA (Malika)
+$ OWACHO (Jii)
+$ SANI DHI NYIME (2500)
+$ YUDO THIEITH (Thieth)</s>"
+89	test-00002778	luo	Jopith jamni e gwenge 2 ma south Kanyabala  Sub location  e boma ma Homabay, jokwano lal  bang'  ondiek moro monjo kendo nego jambgi ochiko otieno mokalo.	[{'start_byte': 27, 'limit_byte': 56, 'label': 'LOC'}, {'start_byte': 60, 'limit_byte': 75, 'label': 'LOC'}, {'start_byte': 140, 'limit_byte': 153, 'label': 'DATE'}]	LOC: south Kanyabala  Sub location $$ LOC: boma ma Homabay $$ DATE: otieno mokalo	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ JOPITH $ JAMNI $ E $ GWENGE $ 2 $ MA $ SOUTH $ KANYABALA $ SUBLOCATION $ EBOMA $ HOMABAY $ JOKWANO $ LAL $ BANG' $ ONDIEK $ MORGO $ MONJO $ KENDO $ NEGO $ JAMBGI $ OCHIKO $ OTIENO $ MOkalO</s>"
+93	test-00002782	luo	Kwan mar jii moyudo midhusi mar corona e buo seche 24 mokalo gin 960.	[{'start_byte': 45, 'limit_byte': 60, 'label': 'DATE'}]	DATE: seche 24 mokalo	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Kwan $ ORGANIZATION: Moyudo Midhusi $ PERSON: Corona $ EVENT: Buo Seche $ DATE: 24 Mokalo Gin 960</s>"
+97	test-00002786	luo	Gi e kindeno jotuo mok 2 owito ngimagi gi tuo makochno.	[{'start_byte': 5, 'limit_byte': 12, 'label': 'DATE'}]	DATE: kindeno	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+99	test-00002788	luo	Jo Kakrao yuak ni MCA margi ojuang' o weche mag dongruok ma gwenggi	[{'start_byte': 3, 'limit_byte': 9, 'label': 'LOC'}]	LOC: Kakrao	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jo
+$ ORGANIZATION: MCA
+$ LOCATION: Yuak Ni
+$ PERSON: Mag Dongruok
+$ LOCATION: Ma Gwenggi</s>"
+100	test-00002789	luo	Jo Kakrao Ward Sub County ma Suna East e County ma Migori sani koro joseyo malit mokalo piny owacho mar County margino kod jotelo mane oyier gwenggi kuno kuom jwang' ogi kagiwacho gwengegigo osebedo ka odong chien e weche mag oongruok kuom higni modhuro	[{'start_byte': 3, 'limit_byte': 38, 'label': 'LOC'}, {'start_byte': 41, 'limit_byte': 57, 'label': 'LOC'}, {'start_byte': 58, 'limit_byte': 62, 'label': 'DATE'}]	LOC: Kakrao Ward Sub County ma Suna East $$ LOC: County ma Migori $$ DATE: sani	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Migori $ COUNTY: Jo Kakrao Ward $ SUBCOUNTY: Suna East $ COUNTY: Migori</s>"
+101	test-00002790	luo	Jo gwenggo mane otelnegi kod migosi Paul Otieno ne jowacho ni osebed mana ka iketogi mana gi singo modhuro gi jotelogo mabende ok chopi	[{'start_byte': 36, 'limit_byte': 47, 'label': 'PER'}]	PER: Paul Otieno	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Paul Otieno
+$ ORGANIZATION: Migosi
+$ LOCATION: Nairobi</s>"
+102	test-00002791	luo	Kanomedowuoyo ewii wachno migosi Otieno nowacho ni giduaro ni wach ndara maricho makono ng' ii kaachiel gi ng' iyo wach taya mag chiche makono kod wach pur ndawa masani koro odok chieng kuno bende ng' ii	[{'start_byte': 33, 'limit_byte': 39, 'label': 'PER'}]	PER: Otieno	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kanomedowuoyo
+$ PERSON: Otieno
+$ ORGANIZATION: Ng' iyo wach
+$ LOCATION: Maricho makono</s>"
+103	test-00002792	luo	Jogwenggo joowacho ni gisetemo golo yuak margi ewii gik ma giduaro ni ng' iigo ne MCA margi migosi George Owiti to MCAno osebedo ka okao mamalo gi ma piny omuno maok oduar katamana wuoyo ewii wachno	[{'start_byte': 99, 'limit_byte': 111, 'label': 'PER'}]	PER: George Owiti	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: George Owiti
+$ ORGANIZATION: MCA
+$ LOCATION: Margii</s>"
+104	test-00002793	luo	Kwan jii maromo million 16 gi alufu 48 gi 101 ma oyudi kawuononi ni nikod Covid-19 e bwo piny mangima	[{'start_byte': 55, 'limit_byte': 64, 'label': 'DATE'}]	DATE: kawuononi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kwan Jii $ LOCATION: Maromo $ ORGANIZATION: Million 16 Gi Alufu $ DATE: 48 Gi 101 Ma $ EVENT: Oyudi Kawuononi $ DISEASE: Covid-19</s>"
+107	test-00002796	luo	Piny America ema okao namba achiel kuom pinje duto e bwo piny mangima kuom pinje ma tuono osenegoe jii mang' enyie moloyo ma gin jii alufu 148 gi 848 ka namba ariyo e piny Brazil ma osenegoe jii alufu 85 gi 385 ka namba 3 en India ma oseneoge jii alufu 31 gi 406	[{'start_byte': 5, 'limit_byte': 12, 'label': 'LOC'}, {'start_byte': 172, 'limit_byte': 178, 'label': 'LOC'}, {'start_byte': 225, 'limit_byte': 230, 'label': 'LOC'}]	LOC: America $$ LOC: Brazil $$ LOC: India	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Piny America
+$ ORGANIZATION: Brazil
+$ LOCATION: India
+$ PERSON: Esther</s>"
+108	test-00002797	luo	JONEKO GI KORONA MOMBASA	[{'start_byte': 17, 'limit_byte': 24, 'label': 'LOC'}]	LOC: MOMBASA	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Joneko
+$ LOCATION: Korona
+$ LOCATION: Mombasa</s>"
+109	test-00002798	luo	Esechegi ma oganda duto jotemo kawo okange mag ritore mondo mi kik gigam midhusi mar Korona, ngima jotuo mapachgi ogwenyore to chutho mago madangni e chuny boma ma Mombasa josebedo ekind akuru ga sumbi mar gamo tuonoendo nimar onge okange magikawo mar temo ritore kaluwore gi pachgi maok nikare.	[{'start_byte': 0, 'limit_byte': 8, 'label': 'DATE'}, {'start_byte': 156, 'limit_byte': 171, 'label': 'LOC'}]	DATE: Esechegi $$ LOC: boma ma Mombasa	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Mombasa
+$ ORGANIZATION: Korona
+$ PERSON: Josebedo</s>"
+110	test-00002799	luo	Kaluwore gi mano mikayi Amina Abdala maen jatend riwruog mine midendo ni Mombasa Women network ne ochako chenro mar choko jotuogoeko mondo mi oketgi kamoro thenge kuma gin bende inyalo pimgi midhuso mar corona mondo mi ochiwnegi thieth mowinjore.	[{'start_byte': 24, 'limit_byte': 36, 'label': 'PER'}, {'start_byte': 73, 'limit_byte': 94, 'label': 'ORG'}]	PER: Amina Abdala $$ ORG: Mombasa Women network	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Mombasa
+$ ORGANIZATION: Mombasa Women Network
+$ PERSON: Amina Abdala</s>"
+112	test-00002801	luo	Jal moro ma ja higni 40 owito ngimane bang ng' ielore kowuok e  wi gode ma gwassi e sub location ma Malongo  e sub county ma Suba South e seche manyoringo kopanjo ne apisa marito bunge manyogoo apedha mar jok ma wang'o makaa e bungego.	[{'start_byte': 15, 'limit_byte': 23, 'label': 'DATE'}, {'start_byte': 67, 'limit_byte': 81, 'label': 'LOC'}, {'start_byte': 84, 'limit_byte': 107, 'label': 'LOC'}, {'start_byte': 111, 'limit_byte': 135, 'label': 'LOC'}]	DATE: higni 40 $$ LOC: gode ma gwassi $$ LOC: sub location ma Malongo $$ LOC: sub county ma Suba South	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Malongo
+$ SUB_COUNTY: Suba South
+$ ORGANIZATION: unknown (not specified)
+$ PERSON: Jal moro ma ja</s>"
+113	test-00002802	luo	Jaloero mane oyudo ilao gi apisa marito bunge nokier molwar koridore e gode ma gwassi kanyo ema kaeto nowito ngimane.	[{'start_byte': 71, 'limit_byte': 85, 'label': 'LOC'}]	LOC: gode ma gwassi	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jaloero
+$ LOCATION: ilao
+$ ORGANIZATION: koridore
+$ PERSON: ema
+$ LOCATION: ngimane</s>"
+115	test-00002804	luo	KWAN JOK MA MANYO THIETH ODOK PINY MIGORI	[{'start_byte': 35, 'limit_byte': 41, 'label': 'LOC'}]	LOC: MIGORI	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+116	test-00002805	luo	Kwan mar jii madhi e ute mag thieth manyo thieth e County ma Migori odok piny mokalo nyaka ne midhusi mar corona muoji e thurka.	[{'start_byte': 51, 'limit_byte': 67, 'label': 'LOC'}]	LOC: County ma Migori	"  Sure! Here are the named entities in your passage:
+
+$ COUNTY: Migori
+$ MIDHUSI: Mar
+$ CORONA
+$ THURKA</s>"
+117	test-00002806	luo	Maeri en kaluwore g apisa moro mar thieth e countino James Oguk.	[{'start_byte': 53, 'limit_byte': 63, 'label': 'PER'}]	PER: James Oguk	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Maeri
+$ PERSON: James Oguk
+$ ORGANIZATION: apisa
+$ LOCATION: countino</s>"
+118	test-00002807	luo	Oguk wacho ni gisefwenyo ni jii sani thoro mana ng' iew yien e kuonde uso yedhe  ka mamoko to limo nyamrerwa mae kor gwenge ka gimanyo thieth.	[{'start_byte': 0, 'limit_byte': 4, 'label': 'PER'}, {'start_byte': 32, 'limit_byte': 36, 'label': 'DATE'}]	PER: Oguk $$ DATE: sani	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Oguk
+$ ORGANIZATION: gisefwenyo
+$ LOCATION: ng' iew yien e kuonde uso yedhe
+$ PERSON: ka mamoko
+$ LOCATION: limo nyamrerwa
+$ PERSON: ka gimanyo
+$ LOCATION: thieth</s>"
+119	test-00002808	luo	Oguk wacho ni jii mathoth sani paro ni laktere odich ahinya gi wach midhusi mar corona moloyo tuoche mamoko gino mowacho ni ok adier.	[{'start_byte': 0, 'limit_byte': 4, 'label': 'PER'}, {'start_byte': 26, 'limit_byte': 30, 'label': 'DATE'}]	PER: Oguk $$ DATE: sani	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Oguk
+$ ORGANIZATION: Laktere Odich Ahinya Gi Wach Midhusi Mar Corona Moloyo Tuoche Mamoko Gino Mowacho Ni Ok Adier
+$ LOCATION: New York</s>"
+120	test-00002809	luo	DOHO MA MOMBASA OCHAKO WINJO BUCHE AYANGA	[{'start_byte': 0, 'limit_byte': 15, 'label': 'ORG'}]	ORG: DOHO MA MOMBASA	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+121	test-00002810	luo	Doho ma Mombasa kawuono ochako ayanga chenro mage mag winjo buche bang kanyocha olore kaluwore gi kwan mathoth mag jogo matiyo e doho kanyo manyocha oyangi ni neogamo midhusi mar Corona.	[{'start_byte': 0, 'limit_byte': 15, 'label': 'ORG'}, {'start_byte': 16, 'limit_byte': 23, 'label': 'DATE'}]	ORG: Doho ma Mombasa $$ DATE: kawuono	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Doho
+$ LOCATION: Mombasa
+$ ORGANIZATION: chenro
+$ PERSON: olore
+$ LOCATION: kaluwore
+$ ORGANIZATION: mag winjo
+$ PERSON: buche
+$ LOCATION: bang
+$ ORGANIZATION: kanyocha
+$ PERSON: manyocha
+$ LOCATION: oyangi
+$ ORGANIZATION: midhusi
+$ LOCATION: Corona</s>"
+122	test-00002811	luo	Doho no ne ochak olor kata bang ogai mar Doho e pachoka David Maraga chiwo thuolo mondo mi oyaw kuondego bang yangore ni jii 11 matiyo e doho kanyo monywando okinde kod apisas mag doho ne jogamo midhusi noendo.	[{'start_byte': 56, 'limit_byte': 68, 'label': 'PER'}]	PER: David Maraga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: Doho
+$ ORGANIZATION: David Maraga
+$ LOCATION:ondo mi oyaw kuondego bang yangore ni jii 11 matiyo e doho kanyo monywando okinde kod apisas mag doho ne jogamo midhusi noendo
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with.</s>"
+123	test-00002812	luo	KARAN MANYIEN MA NAIROBI OCHAMO MUMA.	[{'start_byte': 17, 'limit_byte': 24, 'label': 'LOC'}]	LOC: NAIROBI	"  Sure! Here are the named entities in your passage:
+
+$ KARAN (person)
+$ MANYIEN (person)
+$ Nairobi (location)
+$ Ochamo (location)
+$ Muma (organization)</s>"
+124	test-00002813	luo	Edward Gichana osechamo muma kaka karan manyien mar od bura ma Nairobi .	[{'start_byte': 0, 'limit_byte': 14, 'label': 'PER'}, {'start_byte': 52, 'limit_byte': 70, 'label': 'ORG'}]	PER: Edward Gichana $$ ORG: od bura ma Nairobi	"  Sure! Here are the named entities in your passage:
+
+$ NAME: Edward Gichana
+$ CITY: Nairobi</s>"
+125	test-00002814	luo	Nyasi ma kamano notelie kkod spika Beatrivce Elachi mana odiechieng achiel tok kanyo opuodh nyinge  gi od burano e romo manyokelo fwere, ka koro nenore ni lweny manyien nyalo biro muoch e assembly ma Nairobi.	[{'start_byte': 35, 'limit_byte': 51, 'label': 'PER'}, {'start_byte': 188, 'limit_byte': 207, 'label': 'ORG'}]	PER: Beatrivce Elachi $$ ORG: assembly ma Nairobi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Nyasi $ LOCATION: Kamano $ ORGANIZATION: Beatrivce Elachi $ PERSON: Manan $ LOCATION: Odiechieng $ ORGANIZATION: Achiel Tok $ PERSON: Kanyo $ LOCATION: Opuodh $ NAME: Nyinge $ LOCATION: Gi $ ORGANIZATION: Burano $ PERSON: Manyokelo</s>"
+126	test-00002815	luo	Motelo odiechieng ma kawuono,  yuaruok nomuoch bang'  spika Elachi nodagi yango Jacob Ngwele kaka karan mar od Burano.	[{'start_byte': 7, 'limit_byte': 28, 'label': 'DATE'}, {'start_byte': 60, 'limit_byte': 66, 'label': 'PER'}, {'start_byte': 80, 'limit_byte': 92, 'label': 'PER'}]	DATE: odiechieng ma kawuono $$ PER: Elachi $$ PER: Jacob Ngwele	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ PERSON: Motelo Odiechieng
+$ LOCATION: Bang'
+$ ORGANIZATION: Elachi
+$ PERSON: Jacob Ngwele
+$ LOCATION: Burano</s>"
+127	test-00002816	luo	Ngwele osebedo oko mar apisi chakre dwe mar 11 higa mokalo  tok ka Elachi nondiko ne EACC ni noyiere e yoo maok ni kare.	[{'start_byte': 0, 'limit_byte': 6, 'label': 'PER'}, {'start_byte': 36, 'limit_byte': 58, 'label': 'DATE'}, {'start_byte': 67, 'limit_byte': 73, 'label': 'PER'}, {'start_byte': 85, 'limit_byte': 89, 'label': 'ORG'}]	PER: Ngwele $$ DATE: dwe mar 11 higa mokalo $$ PER: Elachi $$ ORG: EACC	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Ngwele
+$ ORGANIZATION: EACC
+$ LOCATION: Elachi</s>"
+128	test-00002817	luo	Japuonjre ma jahigni 17 manetimo penj mar KCSE ongielo orengo	[{'start_byte': 13, 'limit_byte': 23, 'label': 'DATE'}]	DATE: jahigni 17	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+129	test-00002818	luo	Japuonjre ma jahigni 17 manetimo penj maduong mar kcse e skund sekondar ma DC mixed e gwenge ma Randung ,Gem west location e constituency ma Rangwe ongielo orengo	[{'start_byte': 13, 'limit_byte': 23, 'label': 'DATE'}, {'start_byte': 57, 'limit_byte': 83, 'label': 'ORG'}, {'start_byte': 96, 'limit_byte': 103, 'label': 'LOC'}, {'start_byte': 105, 'limit_byte': 122, 'label': 'LOC'}, {'start_byte': 125, 'limit_byte': 147, 'label': 'LOC'}]	DATE: jahigni 17 $$ ORG: skund sekondar ma DC mixed $$ LOC: Randung $$ LOC: Gem west location $$ LOC: constituency ma Rangwe	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Japuonjre
+$ MANETIMO: 17
+$ PENJ: Maduong
+$ KCSE: E skund sekondar
+$ DC: Mixed
+$ RANDUNG: Gem
+$ WEST: Location
+$ CONSTITUENCY: Rangwe
+$ ONGIELO: Ongelo
+$ ORENGO: Orengo</s>"
+130	test-00002819	luo	Japuonjreno ne owito ngimane okinyi makawuono e kar thieth ma Homabay County Teaching and Referal Hospital kamosebedo ka oyudo thieth chakre chieng tich abich .	[{'start_byte': 29, 'limit_byte': 45, 'label': 'DATE'}, {'start_byte': 62, 'limit_byte': 106, 'label': 'ORG'}, {'start_byte': 148, 'limit_byte': 158, 'label': 'DATE'}]	DATE: okinyi makawuono $$ ORG: Homabay County Teaching and Referal Hospital $$ DATE: tich abich	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Homabay County $ ORGANIZATION: Teaching and Referral Hospital</s>"
+131	test-00002820	luo	japuonjreno ma oyangi kaka Javan Onyango ne oyudo hinyruok e bund iy e kinde maneotugo kod jowetene opira e pap mar skundno .	[{'start_byte': 27, 'limit_byte': 40, 'label': 'PER'}]	PER: Javan Onyango	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Javan Onyango
+$ ORGANIZATION: kinde maneotugo
+$ LOCATION: bund</s>"
+132	test-00002821	luo	Ruoth ma gwenge go Joel Otieno yango ni ne ogweye e iye kuom hawi marach gi japuonjre machielo e kinde manegitugo opira bang penj ma tich abich kendo ring kode e kar thieth ma rodi kopany kama bange ne ochwale e kar thieth ma homabay county teaching and referal hospital  ma Ongieloe orengo.	[{'start_byte': 19, 'limit_byte': 30, 'label': 'PER'}, {'start_byte': 133, 'limit_byte': 143, 'label': 'DATE'}, {'start_byte': 162, 'limit_byte': 187, 'label': 'ORG'}, {'start_byte': 226, 'limit_byte': 270, 'label': 'ORG'}]	PER: Joel Otieno $$ DATE: tich abich $$ ORG: kar thieth ma rodi kopany $$ ORG: homabay county teaching and referal hospital	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Joel Otieno
+$ ORGANIZATION: Teaching and Referral Hospital
+$ LOCATION: Homabay County
+$ PERSON: Ongieloe Orengo</s>"
+133	test-00002822	luo	Jalup county commisioner ma sub county ma Rangwe Elvis Kolum kaneyango wachni owachoni ne ochwale e kar thieth ma homabay county Referal Hospital ne thieth makende kama ne ongielo orengo.	[{'start_byte': 28, 'limit_byte': 48, 'label': 'LOC'}, {'start_byte': 49, 'limit_byte': 60, 'label': 'PER'}, {'start_byte': 114, 'limit_byte': 145, 'label': 'ORG'}]	LOC: sub county ma Rangwe $$ PER: Elvis Kolum $$ ORG: homabay county Referal Hospital	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Jalup County $ ORGANIZATION: Rangwe Elvis Kolum $ PERSON: Kaneyango Wachni Owachoni $ LOCATION: Homabay County $ REFERRAL HOSPITAL: Thieth Makende Kama $ ONGIELO: Ongielo Orengo</s>"
+134	test-00002823	luo	ka giesani ringre osechwal e kar kano ringruok ma Homabay kairito timone bero.	[{'start_byte': 3, 'limit_byte': 10, 'label': 'DATE'}, {'start_byte': 29, 'limit_byte': 57, 'label': 'ORG'}]	DATE: giesani $$ ORG: kar kano ringruok ma Homabay	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Homabay
+$ KAIRITO: Timone Bero</s>"
+136	test-00002825	luo	senator ma Siaya James Orengo koro owuok oko kendo wacho ni oposition ma thur ka pod otegno kendo ochung kar tiende	[{'start_byte': 11, 'limit_byte': 16, 'label': 'LOC'}, {'start_byte': 17, 'limit_byte': 29, 'label': 'PER'}]	LOC: Siaya $$ PER: James Orengo	"  Sure! Here are the named entities in your passage:
+
+$ SENATOR: Ma Siaya James Orengo
+$ LOCATION: Koro
+$ ORGANIZATION: Opposition
+$ PERSON: Thur Ka Pod Otegno</s>"
+137	test-00002826	luo	ne  okwedo weche moko maosebedo ka liekore ni oposition ma thurka orumo kaluowore kod mosruok maneobedo e kiind jatend kweth makwedo piny owacho Raila Amolo Odinga  kor ker Uhuru Kenyatta.	[{'start_byte': 145, 'limit_byte': 163, 'label': 'PER'}, {'start_byte': 173, 'limit_byte': 187, 'label': 'PER'}]	PER: Raila Amolo Odinga $$ PER: Uhuru Kenyatta	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Raila Amolo Odinga
+$ PERSON: Uhuru Kenyatta</s>"
+138	test-00002827	luo	Orengo ma en jatend kweth manok e od buch senate wacho ni chenro mar riwo oganda maneochak kod jotelo ariyogo ok onego okaw kaka mar riwruok e kind piny owacho kod opposition ne loso e yik moro e gwenge ma masiri ramunde ugenya constituency kama ne okwayo ker kenyataa mondo orid okanda e kedo kod mibadhi e pachoka .	[{'start_byte': 0, 'limit_byte': 6, 'label': 'PER'}, {'start_byte': 206, 'limit_byte': 240, 'label': 'LOC'}, {'start_byte': 260, 'limit_byte': 268, 'label': 'PER'}]	PER: Orengo $$ LOC: masiri ramunde ugenya constituency $$ PER: kenyataa	"  Sure! Here are the named entities in your passage:
+
+$ ORGANIZATION: Okanda e Kedong $ LOCATION: Od Bucht Senate Wacho Ni Chenro Mar Riwo Oganda $ PERSON: Orengo</s>"
+139	test-00002828	luo	ne opuoyo Ker Kenyatta kuom okenge  ma piny owacho mare osekao mar kedo gi mibadhi ka okwaye mondo otime ma ok odewo ngato angata.	[{'start_byte': 14, 'limit_byte': 22, 'label': 'PER'}]	PER: Kenyatta	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+140	test-00002829	luo	Senator orengo ne oten  kod jaod bura ma Rarieda migosi Otiende Amolo to kod migosi Elisha Odhiambo .	[{'start_byte': 8, 'limit_byte': 14, 'label': 'PER'}, {'start_byte': 41, 'limit_byte': 48, 'label': 'LOC'}, {'start_byte': 56, 'limit_byte': 69, 'label': 'PER'}, {'start_byte': 84, 'limit_byte': 99, 'label': 'PER'}]	PER: orengo $$ LOC: Rarieda $$ PER: Otiende Amolo $$ PER: Elisha Odhiambo	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Senator Orengo
+$ ORGANIZATION: Rarieda
+$ LOCATION: Migosi
+$ PERSON: Elisha Odhiambo</s>"
+141	test-00002830	luo	jotelogi ne  ohum kod kwan jopiny china ma osemedore e pachoka ka okwayo piny wacho mondo ongi matut wachni kotenore kod uchumi ma pachoka	[{'start_byte': 34, 'limit_byte': 39, 'label': 'LOC'}]	LOC: china	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+144	test-00002833	luo	Jagoro maduong mar riwruogno Seth Panyako ne okoni winjruok mar dok etich ne nitiere e ogorimiti mane gichue kokgi 2 dwee mar 11 higa mokalo.	[{'start_byte': 29, 'limit_byte': 41, 'label': 'PER'}, {'start_byte': 115, 'limit_byte': 140, 'label': 'DATE'}]	PER: Seth Panyako $$ DATE: 2 dwee mar 11 higa mokalo	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Seth Panyako
+$ ORGANIZATION: Okoni Winjruok
+$ LOCATION: Dok Etich</s>"
+145	test-00002834	luo	Migosi Panyako ne okoni notis mane gichiwono chako tiyo tarik 19 dweeni mar 11 kadiponi winjruogno mane obedo ekindgi tarik 2 dwee mar 11 2017 ok oketi etim kakane owinjore gitim kochaokre tarik 1 dwee mar 7 higani.	[{'start_byte': 7, 'limit_byte': 14, 'label': 'PER'}, {'start_byte': 56, 'limit_byte': 78, 'label': 'DATE'}, {'start_byte': 118, 'limit_byte': 142, 'label': 'DATE'}, {'start_byte': 189, 'limit_byte': 214, 'label': 'DATE'}]	PER: Panyako $$ DATE: tarik 19 dweeni mar 11 $$ DATE: tarik 2 dwee mar 11 2017 $$ DATE: tarik 1 dwee mar 7 higani	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Panyako
+$ DATE: 11th March 2017
+$ LOCATION: Okoni
+$ ORGANIZATION: Notis Mane Gichwono Chako Tiyo
+$ DATE: 7th March 2017
+$ EVENT: Visiting New York</s>"
+148	test-00002837	luo	Kane giloso gi jofwambo eboma ma Kisumu riwruogno seyo moko kuom piny owacho mag counties ma jo tiyo kanyakla kod mane en jakom margi John Bii e mayo riwruogno omenda mathoth ka gityo kod aguche maok opuodhi e yor chudo manyasani mar IFMIS.	[{'start_byte': 24, 'limit_byte': 39, 'label': 'LOC'}, {'start_byte': 134, 'limit_byte': 142, 'label': 'PER'}]	LOC: eboma ma Kisumu $$ PER: John Bii	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Kane Giloso
+$ COUNTY: Kisumu
+$ CITY: Riwruogno
+$ ORGANIZATION: John Bii
+$ LOCATION: Margui
+$ PERSON: Esther</s>"
+149	test-00002838	luo	Doho oweyo thuolo gavana Obado gi rambun	[{'start_byte': 25, 'limit_byte': 30, 'label': 'PER'}]	PER: Obado	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+150	test-00002839	luo	Gavana ma Migori migosi Okoth Obado nyalo buonjo bang doho ma Kibra weye thuolo gi rambun mar silings gana 500 .	[{'start_byte': 10, 'limit_byte': 16, 'label': 'LOC'}, {'start_byte': 24, 'limit_byte': 35, 'label': 'PER'}, {'start_byte': 54, 'limit_byte': 67, 'label': 'ORG'}]	LOC: Migori $$ PER: Okoth Obado $$ ORG: doho ma Kibra	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Gavana
+$ LOCATION: Migori
+$ ORGANIZATION: Okoth
+$ PERSON: Obado
+$ LOCATION: Nyalo
+$ ORGANIZATION: Bang Doyo
+$ LOCATION: Kibra
+$ EVENT: Thuolo Gi Rambun Mar Silings Gana 500</s>"
+151	test-00002840	luo	Jangad buche edoho ma Kibra  Joyce Gandani ne okoni onge neno moromo mane ochiw gi jomin wach eloo piny manyalo miyo mmed gengne migosi Obado kuom thuolo mar jumbe 2 kaka ne gidwaro..	[{'start_byte': 13, 'limit_byte': 27, 'label': 'ORG'}, {'start_byte': 29, 'limit_byte': 42, 'label': 'PER'}, {'start_byte': 136, 'limit_byte': 141, 'label': 'PER'}]	ORG: edoho ma Kibra $$ PER: Joyce Gandani $$ PER: Obado	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Jangad Buche
+$ PERSON: Edoho Ma Kibra
+$ PERSON: Joyce Gandani
+$ ORGANIZATION: Obado
+$ LOCATION: Kakamega</s>"
+152	test-00002841	luo	Gavana Obado ne odonjne kod ketho mar bedo kod bunde 8 maok opuodhi gi chik .	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: Obado	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Gavana Obado
+$ LOCATION: kod ketho
+$ ORGANIZATION: bunde 8 maok</s>"
+153	test-00002842	luo	Bunde 5 ne oyudie eode ma Lavingtone ka 3 ne oyudi  eode ma Migori ethuolo mane apisas mag okwach kich mawuok ka duol makedo gi mibadhi EACC ne joo timo nonro  ewi mibadhii mar silings bilion 2 mawachore ne otii godo eyoo marach ecountyno.	[{'start_byte': 26, 'limit_byte': 36, 'label': 'LOC'}, {'start_byte': 60, 'limit_byte': 66, 'label': 'LOC'}, {'start_byte': 136, 'limit_byte': 140, 'label': 'ORG'}]	LOC: Lavingtone $$ LOC: Migori $$ ORG: EACC	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Bunde
+$ ORGANIZATION: EACC
+$ LOCATION: Migori
+$ LOCATION: New York</s>"
+154	test-00002843	luo	Mcas moko mawuok e county assembly ma Homabay dhii bedo erumend kuom jumbe 2	[{'start_byte': 19, 'limit_byte': 45, 'label': 'ORG'}]	ORG: county assembly ma Homabay	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ COUNTY_ASSEMBLY: Homabay
+$ DHII: Bedo
+$ ERUMEND: Kuom Jumbe
+$ LOCATION: Mawock</s>"
+155	test-00002844	luo	Mcas mawuok ecounty assembly ma Homabay mane ochwal enyim doho maKisumu kendo odonjnegi kod ketho mar monjo spika mar county assemblyno mikayi Elizabeth Ayoo joo dhii bedo erumend ma Kodiaga kuom jumbe ariyo ka nonro dhii nyime.	[{'start_byte': 12, 'limit_byte': 39, 'label': 'ORG'}, {'start_byte': 58, 'limit_byte': 71, 'label': 'ORG'}, {'start_byte': 143, 'limit_byte': 157, 'label': 'PER'}, {'start_byte': 172, 'limit_byte': 190, 'label': 'ORG'}]	ORG: ecounty assembly ma Homabay $$ ORG: doho maKisumu $$ PER: Elizabeth Ayoo $$ ORG: erumend ma Kodiaga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ COUNTY_ASSEMBLY: Homabay
+$ CITY: Kisumu
+$ PERSON: Elizabeth Ayoo
+$ LOCATION: Mikayi
+$ COUNTY_ASSEMBLY: Kodiaga</s>"
+156	test-00002845	luo	Jangad buche edoho ma Kisumu Rose Ndombi ne owachoni weyo thuolo Mcas go kaka ne okinde mayalo ne joo dwaro ne nyalo rocho chenro mar timo nonro ewii ketho mane odonjnegi godo.	[{'start_byte': 13, 'limit_byte': 28, 'label': 'ORG'}, {'start_byte': 29, 'limit_byte': 40, 'label': 'PER'}]	ORG: edoho ma Kisumu $$ PER: Rose Ndombi	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Kisumu
+$ PERSON: Rose Ndombi
+$ ORGANIZATION: Mcas
+$ PERSON: Esther</s>"
+157	test-00002846	luo	Mcas gin Evans Marieba, ma Gwasi North ,Phelimon Onditi (Kagan), Dan Were (Kakelo Kokwanyo) Paul Wamunga (North Karachuonyo ward),  kod Mca ma Wang' chieng ward Peter Kaula.	[{'start_byte': 9, 'limit_byte': 22, 'label': 'PER'}, {'start_byte': 27, 'limit_byte': 38, 'label': 'LOC'}, {'start_byte': 40, 'limit_byte': 55, 'label': 'PER'}, {'start_byte': 57, 'limit_byte': 62, 'label': 'LOC'}, {'start_byte': 65, 'limit_byte': 73, 'label': 'PER'}, {'start_byte': 75, 'limit_byte': 90, 'label': 'LOC'}, {'start_byte': 92, 'limit_byte': 104, 'label': 'PER'}, {'start_byte': 106, 'limit_byte': 128, 'label': 'LOC'}, {'start_byte': 143, 'limit_byte': 160, 'label': 'LOC'}, {'start_byte': 161, 'limit_byte': 172, 'label': 'PER'}]	PER: Evans Marieba $$ LOC: Gwasi North $$ PER: Phelimon Onditi $$ LOC: Kagan $$ PER: Dan Were $$ LOC: Kakelo Kokwanyo $$ PER: Paul Wamunga $$ LOC: North Karachuonyo ward $$ LOC: Wang' chieng ward $$ PER: Peter Kaula	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ NAME: Mcas Gin Evans Marieba
+$ NAME: Phelimon Onditi (Kagan)
+$ NAME: Dan Were (Kakelo Kokwanyo)
+$ NAME: Paul Wamunga (North Karachuonyo ward)
+$ NAME: Peter Kaula
+$ LOCATION: Wang' chieng ward</s>"
+158	test-00002847	luo	Motelone mano Mcas go ne joo ochiwore ne obila mag okwach kich bang'  yudo maling ling ni obila ne manyogi ewii wach monjo spika ma Homabay bange to ne ochwal gi enim doho.	[{'start_byte': 132, 'limit_byte': 139, 'label': 'LOC'}]	LOC: Homabay	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Motelone mano Mcas
+$ LOCATION: Obila mag okwach
+$ ORGANIZATION: Manyogi ewii wach monjo
+$ PERSON: Ochwal gi enim doho</s>"
+159	test-00002848	luo	Obila ma Bondo okwedo weche moko ni gikao asoya eseche ma gitimo apedha eapaya	[{'start_byte': 9, 'limit_byte': 14, 'label': 'LOC'}]	LOC: Bondo	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+160	test-00002849	luo	Obila e subcounty ma Bondo okwedo weche moko mawuok kuom jotelo ni gitiyo kod thuolo mar apedha madhii nyime eapaya ekawo asoya kuom weg matatu kod jo bodaboda.	[{'start_byte': 8, 'limit_byte': 26, 'label': 'LOC'}]	LOC: subcounty ma Bondo	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Bondo
+$ ORGANIZATION: Okwedo
+$ PERSON: Mawuok Kuom Jotelo</s>"
+161	test-00002850	luo	OCPD  ma Bondo Harriet Kinya,ne okoni gisebedo kagitimo apedha kendo gimako mana weg matatu gi jo bodaboda maok luw chikego mane ochak ket etim.	[{'start_byte': 9, 'limit_byte': 14, 'label': 'LOC'}, {'start_byte': 15, 'limit_byte': 28, 'label': 'PER'}]	LOC: Bondo $$ PER: Harriet Kinya	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Bondo Harriet Kinya
+$ ORGANIZATION: OCPD
+$ LOCATION: Okoni</s>"
+162	test-00002851	luo	Odiechieng manyoro moko kuom jo boda boda gi jotelo mawuok siaya kotelnegi kod mca ma ogwel ecounty assembly ma Siaya Tabu Osewe ne oseyo apisas mag obila kane gikoni gisebedo ka  gisando weg matatu ka gikawo asoya kuomgi.	[{'start_byte': 0, 'limit_byte': 18, 'label': 'DATE'}, {'start_byte': 59, 'limit_byte': 64, 'label': 'LOC'}, {'start_byte': 92, 'limit_byte': 117, 'label': 'ORG'}, {'start_byte': 118, 'limit_byte': 128, 'label': 'PER'}]	DATE: Odiechieng manyoro $$ LOC: siaya $$ ORG: ecounty assembly ma Siaya $$ PER: Tabu Osewe	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Siaya $ ORGANIZATION: County Assembly $ PERSON: Odiechieng Manyoro</s>"
+163	test-00002852	luo	Mikayi Kinya ne oyangoni apise  oyawu thuolo ne ngat moro amora mankod ngur machal gi mago kane oleroni apisas mage okoyiene sando kendo kawo asoya kuom weg matatu gi jo boada boda.	[{'start_byte': 7, 'limit_byte': 12, 'label': 'PER'}]	PER: Kinya	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Mikayi Kinya
+$ ORGANIZATION: oyangoni
+$ LOCATION: ngat moro
+$ PERSON: oleroni
+$ ORGANIZATION: sando
+$ LOCATION: kuom
+$ PERSON: Esther</s>"
+164	test-00002853	luo	Kane omedo loso ewii wachno mikayi Harriet  ne okoni joo go mapod okluw chikego mag apaya ibiro maki machwal enyim doho kendo donjnegi kod keth mar rem luwo chike mag apaya.	[{'start_byte': 35, 'limit_byte': 42, 'label': 'PER'}]	PER: Harriet	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Kane
+$ ORGANIZATION: Mikayi
+$ LOCATION: Harriet</s>"
+165	test-00002854	luo	MCAs 9 ma Homabay ni e lwet obila	[{'start_byte': 10, 'limit_byte': 17, 'label': 'LOC'}]	LOC: Homabay	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: David
+$ ORGANIZATION: Amazon
+$ LOCATION: New York
+$ PERSON: Esther</s>"
+166	test-00002855	luo	MCAs mamoko 7 mag county ma Homabay jochopo gin giwegi e nyim obila mag okwach kich e boma ma Kisumu okinyi ma kawuono ewii wach monj ma nyocha omonjgo spika ma homabay mikayi Elizabeth Ayoo.	[{'start_byte': 18, 'limit_byte': 35, 'label': 'LOC'}, {'start_byte': 86, 'limit_byte': 100, 'label': 'LOC'}, {'start_byte': 101, 'limit_byte': 118, 'label': 'DATE'}, {'start_byte': 161, 'limit_byte': 168, 'label': 'LOC'}, {'start_byte': 176, 'limit_byte': 190, 'label': 'PER'}]	LOC: county ma Homabay $$ LOC: boma ma Kisumu $$ DATE: okinyi ma kawuono $$ LOC: homabay $$ PER: Elizabeth Ayoo	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Homabay
+$ COUNTY: Ma
+$ CITY: Kisumu
+$ PERSON: Elizabeth Ayoo</s>"
+167	test-00002856	luo	Maa en bang'  ka MCAs 2 manyo omaki Homabay bende ne oseter e Kisumu kuno kendo ogeng' negi e tesend obila ma Kisumu; mano MCA ma Kanyidoto Walter Were Muok ma en jatend kweth mathoth e od bura ma Homabay kod MCA ma Central Karachuonyo Julius Gaya.	[{'start_byte': 36, 'limit_byte': 43, 'label': 'LOC'}, {'start_byte': 62, 'limit_byte': 68, 'label': 'LOC'}, {'start_byte': 94, 'limit_byte': 116, 'label': 'ORG'}, {'start_byte': 130, 'limit_byte': 139, 'label': 'LOC'}, {'start_byte': 140, 'limit_byte': 156, 'label': 'PER'}, {'start_byte': 186, 'limit_byte': 204, 'label': 'ORG'}, {'start_byte': 216, 'limit_byte': 235, 'label': 'LOC'}, {'start_byte': 236, 'limit_byte': 247, 'label': 'PER'}]	LOC: Homabay $$ LOC: Kisumu $$ ORG: tesend obila ma Kisumu $$ LOC: Kanyidoto $$ PER: Walter Were Muok $$ ORG: od bura ma Homabay $$ LOC: Central Karachuonyo $$ PER: Julius Gaya	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ MCA: Maa en bang'
+$ LOCATION: Homabay, Kisumu, Central Karachuonyo
+$ PERSON: Walter Were, Muok, Julius Gaya</s>"
+168	test-00002857	luo	MCAs ma ochopo e nyim obila gin giwegi kawuono gin kanyakla kod mano ma Gwasi North Evans Marieba, Phelimon Onditi (Kagan), Dan Were (Kakelo Kokwanyo) Paul Wamunga (North Karachuonyo Ward), Geoffrey Guma Anyango( Kabondo West),Paul Adika (Lambwe Ward) kod MCA ma Wang' chieng ward Peter Kaula.	[{'start_byte': 39, 'limit_byte': 46, 'label': 'DATE'}, {'start_byte': 72, 'limit_byte': 83, 'label': 'LOC'}, {'start_byte': 84, 'limit_byte': 97, 'label': 'PER'}, {'start_byte': 99, 'limit_byte': 114, 'label': 'PER'}, {'start_byte': 116, 'limit_byte': 121, 'label': 'LOC'}, {'start_byte': 124, 'limit_byte': 132, 'label': 'PER'}, {'start_byte': 134, 'limit_byte': 149, 'label': 'LOC'}, {'start_byte': 151, 'limit_byte': 163, 'label': 'PER'}, {'start_byte': 165, 'limit_byte': 187, 'label': 'LOC'}, {'start_byte': 190, 'limit_byte': 211, 'label': 'PER'}, {'start_byte': 213, 'limit_byte': 225, 'label': 'LOC'}, {'start_byte': 227, 'limit_byte': 237, 'label': 'PER'}, {'start_byte': 239, 'limit_byte': 250, 'label': 'LOC'}, {'start_byte': 263, 'limit_byte': 280, 'label': 'LOC'}, {'start_byte': 281, 'limit_byte': 292, 'label': 'PER'}]	DATE: kawuono $$ LOC: Gwasi North $$ PER: Evans Marieba $$ PER: Phelimon Onditi $$ LOC: Kagan $$ PER: Dan Were $$ LOC: Kakelo Kokwanyo $$ PER: Paul Wamunga $$ LOC: North Karachuonyo Ward $$ PER: Geoffrey Guma Anyango $$ LOC: Kabondo West $$ PER: Paul Adika $$ LOC: Lambwe Ward $$ LOC: Wang' chieng ward $$ PER: Peter Kaula	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as a separator:
+
+$ NAME: Phelimon Onditi (Kagan)
+$ NAME: Dan Were (Kakelo Kokwanyo)
+$ NAME: Paul Wamunga (North Karachuonyo Ward)
+$ NAME: Geoffrey Guma Anyango (Kabondo West)
+$ NAME: Paul Adika (Lambwe Ward)
+$ NAME: Peter Kaula
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with.</s>"
+169	test-00002858	luo	MCAs jodhi kobila bang'  yudo uma ni obila ne manyogi ewii wach monjo spika ma Homabay.	[{'start_byte': 79, 'limit_byte': 86, 'label': 'LOC'}]	LOC: Homabay	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Homabay
+$ ORGANIZATION: Manyogi Ewii Wach Monjo Spika
+$ PERSON: Jodhi Kobila Bang</s>"
+171	test-00002860	luo	Chenro mar menyo dhii nyime ne ringre japuonjre ma klass 11 manyo olwar e dhoo wath ma Bongu Beach e Central Karungu location, mano e Sub County ma Nyatike e County ma Migori.	[{'start_byte': 87, 'limit_byte': 98, 'label': 'LOC'}, {'start_byte': 101, 'limit_byte': 125, 'label': 'LOC'}, {'start_byte': 134, 'limit_byte': 155, 'label': 'LOC'}, {'start_byte': 158, 'limit_byte': 174, 'label': 'LOC'}]	LOC: Bongu Beach $$ LOC: Central Karungu location $$ LOC: Sub County ma Nyatike $$ LOC: County ma Migori	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ LOCATION: Bongu Beach $ COUNTY: Migori $ SUBCOUNTY: Nyatike</s>"
+172	test-00002861	luo	Briton Mike Odhiambo nyo okier molwar e pii odhiambo ma nyoro kanyo otemo gamo besen moro manyo oriko dhii gi pii.	[{'start_byte': 0, 'limit_byte': 20, 'label': 'PER'}, {'start_byte': 44, 'limit_byte': 61, 'label': 'DATE'}]	PER: Briton Mike Odhiambo $$ DATE: odhiambo ma nyoro	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Mike Odhiambo
+$ ORGANIZATION: molwar e pii odhiambo
+$ LOCATION: Manyo Orico</s>"
+173	test-00002862	luo	Ruoth ma Central Karungu Isaac Bungu okwayo piny owacho ma Migori kod apisas mag Kenya Redcross mondo jokony e chenro mar manyo ringre rawerano.	[{'start_byte': 9, 'limit_byte': 24, 'label': 'LOC'}, {'start_byte': 25, 'limit_byte': 36, 'label': 'PER'}, {'start_byte': 44, 'limit_byte': 65, 'label': 'ORG'}, {'start_byte': 81, 'limit_byte': 95, 'label': 'ORG'}]	LOC: Central Karungu $$ PER: Isaac Bungu $$ ORG: piny owacho ma Migori $$ ORG: Kenya Redcross	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Migori
+$ ORGANIZATION: Kenya Red Cross
+$ PERSON: Isaac Bungu</s>"
+174	test-00002863	luo	Jokue moko 2 ojuki rando gi diel mane gikwalo e chula Nyakagere, Seme sub county	[{'start_byte': 48, 'limit_byte': 63, 'label': 'LOC'}, {'start_byte': 65, 'limit_byte': 80, 'label': 'LOC'}]	LOC: chula Nyakagere $$ LOC: Seme sub county	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Jokue moko $ ORGANIZATION: ojuki rando $ PERSON: Nyakagere, Seme</s>"
+175	test-00002864	luo	Obila ei egweng ma Kombe Seme subcounty joo ogengene achije moko 2 ma mane omaki rando gi diel mane gikualo e chula ma Nyakagere.	[{'start_byte': 19, 'limit_byte': 39, 'label': 'LOC'}, {'start_byte': 110, 'limit_byte': 128, 'label': 'LOC'}]	LOC: Kombe Seme subcounty $$ LOC: chula ma Nyakagere	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Obila $ ORGANIZATION: Kombe Seme $ PERSON: Ogengene</s>"
+176	test-00002865	luo	Achije 2 go majohigni 43 gi 48 nyoo okwalo dielno manyuok edala mama pamela atieno odindo ei chula ma Nyakagere mayudore enam lolwe kar saa 10 ma kogwen.	[{'start_byte': 12, 'limit_byte': 24, 'label': 'DATE'}, {'start_byte': 28, 'limit_byte': 30, 'label': 'DATE'}, {'start_byte': 69, 'limit_byte': 89, 'label': 'PER'}, {'start_byte': 93, 'limit_byte': 111, 'label': 'LOC'}, {'start_byte': 121, 'limit_byte': 131, 'label': 'LOC'}, {'start_byte': 136, 'limit_byte': 152, 'label': 'DATE'}]	DATE: majohigni 43 $$ DATE: 48 $$ PER: pamela atieno odindo $$ LOC: chula ma Nyakagere $$ LOC: enam lolwe $$ DATE: saa 10 ma kogwen	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Achije
+$ LOCATION: Majohigni
+$ DATE: 43 gi 48 nyoo okwalo dielno
+$ MONTH: Manyuok
+$ DAY: Edala
+$ NAME: Pamela Atieno Odindo
+$ ORGANIZATION: Nyakagere Mayudore
+$ EVENT: Enam Lolwe Kar Saa 10 Ma Kogwen</s>"
+177	test-00002866	luo	Jalup ruoth ma East Othany subalocation migosi Caleb Apondi okuon ne okoni achijego ne omanyo yie mane gikuang godo gi diendno nyaka eloo motuo kamne ginnyalo yudoe chiro	[{'start_byte': 15, 'limit_byte': 39, 'label': 'LOC'}, {'start_byte': 47, 'limit_byte': 59, 'label': 'PER'}]	LOC: East Othany subalocation $$ PER: Caleb Apondi	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Caleb Apondi
+$ ORGANIZATION: Migosi
+$ LOCATION: East Othany
+$ SUBLOCATION: Subalocation
+
+I hope this helps! Let me know if you have any other questions or if there's anything else I can assist you with.</s>"
+178	test-00002867	luo	Migosi Apondi ne okoni achije 2go magin George Opiyo kod Charles Odhiambo ne omaki bang kane jopiny ogoyo milome ne obila ma ema ne omakogi ma ogengnegi etesend obila ma Kombewa ka ibiro chwalgi enyim doho ma maseno odiechieng ma kiny.	[{'start_byte': 7, 'limit_byte': 13, 'label': 'PER'}, {'start_byte': 40, 'limit_byte': 52, 'label': 'PER'}, {'start_byte': 57, 'limit_byte': 73, 'label': 'PER'}, {'start_byte': 153, 'limit_byte': 177, 'label': 'ORG'}, {'start_byte': 201, 'limit_byte': 215, 'label': 'ORG'}, {'start_byte': 216, 'limit_byte': 234, 'label': 'DATE'}]	PER: Apondi $$ PER: George Opiyo $$ PER: Charles Odhiambo $$ ORG: etesend obila ma Kombewa $$ ORG: doho ma maseno $$ DATE: odiechieng ma kiny	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Apondi
+$ PERSON: George Opiyo
+$ PERSON: Charles Odhiambo
+$ LOCATION: Kombewa
+$ ORGANIZATION: Obila Ma Ema</s>"
+179	test-00002868	luo	Jago ma jahigni 41 ne omaki ka okwalo weyni mag keyo teko stima Ugenya	[{'start_byte': 8, 'limit_byte': 18, 'label': 'DATE'}, {'start_byte': 64, 'limit_byte': 70, 'label': 'LOC'}]	DATE: jahigni 41 $$ LOC: Ugenya	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Ugenya
+$ PERSON: Jago</s>"
+180	test-00002869	luo	Obila ne ogengone jago moro ma jahigni 41 e tesend obila ma Ukwala bang kane omake ka okwalo weyni mag keyo teko stima egweng ma Ligega Ugenya sub-county	[{'start_byte': 31, 'limit_byte': 41, 'label': 'DATE'}, {'start_byte': 44, 'limit_byte': 66, 'label': 'ORG'}, {'start_byte': 129, 'limit_byte': 153, 'label': 'LOC'}]	DATE: jahigni 41 $$ ORG: tesend obila ma Ukwala $$ LOC: Ligega Ugenya sub-county	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Obila
+$ ORGANIZATION: Ukwala
+$ PERSON: Jahigni
+$ LOCATION: Ugenya sub-county</s>"
+181	test-00002870	luo	Daniel Okoth Ochieng ne nyoo omaki kod jopiny kane ongado weyni mag stima e transformer machiegni gi skund sekondar ma Ugenya.	[{'start_byte': 0, 'limit_byte': 20, 'label': 'PER'}, {'start_byte': 101, 'limit_byte': 125, 'label': 'ORG'}]	PER: Daniel Okoth Ochieng $$ ORG: skund sekondar ma Ugenya	"  Sure! Here are the named entities in your passage:
+
+$ PERSON: Daniel Okoth Ochieng
+$ ORGANIZATION: Ugenya
+$ LOCATION: Skund</s>"
+182	test-00002871	luo	Jalup ruoth ma Ligega sub-location migosi Johannes Ngesa Odundo, ne oyango wach makamano kane okoni ripodno nyoo ochoppone kowuok jopiny .	[{'start_byte': 15, 'limit_byte': 34, 'label': 'LOC'}, {'start_byte': 42, 'limit_byte': 63, 'label': 'PER'}]	LOC: Ligega sub-location $$ PER: Johannes Ngesa Odundo	"  Sure! Here are the named entities in your passage:
+
+$ LOCATION: Migosi
+$ PERSON: Johannes Ngesa Odundo</s>"
+183	test-00002872	luo	Migosi Odundo ne okone nyakalondo mar Ramogi ni achijno bende ne omaki gi misip ma ityiogodo e idhoo yien mar stima, kachiel gi apiko mane otiyo godo kowuok dalagi egweng mag Got Nanga kod Weyni mane osengado	[{'start_byte': 7, 'limit_byte': 13, 'label': 'PER'}, {'start_byte': 23, 'limit_byte': 44, 'label': 'ORG'}, {'start_byte': 175, 'limit_byte': 184, 'label': 'LOC'}]	PER: Odundo $$ ORG: nyakalondo mar Ramogi $$ LOC: Got Nanga	"  Sure! Here are the named entities in the passage you provided, using the $ symbol as the separator:
+
+$ PERSON: Migosi Odundo
+$ ORGANIZATION: Ramogi
+$ LOCATION: omaki gi misip ma ityiogodo
+$ PERSON: Esther</s>"
