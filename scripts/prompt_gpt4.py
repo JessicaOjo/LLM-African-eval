@@ -510,7 +510,7 @@ def main(senti: bool = False,
 
 
 if __name__ == '__main__':
-    openai.api_key = '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'
+    openai.api_key = os.getenv('open_ai_key')
     model_name = 'gpt-4-0613'
     output_dir = 'gpt_4_results/masakhaNER/new_prompt/'  # change based on task
     create_dir(output_dir)
