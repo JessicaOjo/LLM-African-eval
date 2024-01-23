@@ -395,52 +395,52 @@ def main(senti: bool = False,
 
 
     if senti is True:
-        output_dir = 'results_mt0_xxl/sentiment/'
+        output_dir = 'results_mt0_mt/sentiment/'
         create_dir(output_dir)
 
         sentiment(model_pipeline, tokenizer, output_dir)
     elif news is True:
-        output_dir = 'results_mt0_xxl/news_topic/'
+        output_dir = 'results_mt0_mt/news_topic/'
         create_dir(output_dir)
 
         news_classification(model_pipeline, tokenizer, output_dir)
     elif qa is True:
-        output_dir = 'results_mt0_xxl/qa/'
+        output_dir = 'results_mt0_mt/qa/'
         create_dir(output_dir)
 
         cross_lingual_qa(model_pipeline, tokenizer, output_dir, pivot=True)
     elif qah is True:
-        output_dir = 'results_mt0_xxl/qah/'
+        output_dir = 'results_mt0_mt/qah/'
         create_dir(output_dir)
 
         cross_lingual_qa(model_pipeline, tokenizer, output_dir, pivot=False)
     elif mt_to_en is True:
 
-        output_dir = 'results_mt0_xxl/mt/'
+        output_dir = 'results_mt0_mt/mt/'
         create_dir(output_dir)
 
         machine_translation(model_pipeline, tokenizer, output_dir, reverse=True)
     elif mt_from_en is True:
 
-        output_dir = 'results_mt0_xxl/mt/'
+        output_dir = 'results_mt0_mt/mt/'
         create_dir(output_dir)
 
         machine_translation(model_pipeline, tokenizer, output_dir, reverse=False)
     elif mtg_from_g is True:
 
-        output_dir = 'results_mt0_xxl/mt_german_false/'
+        output_dir = 'results_mt0_mt/mt_german_false/'
         create_dir(output_dir)
 
         machine_translation_germany(model_pipeline, tokenizer, output_dir, reverse=False)
     elif mtg_to_g is True:
 
-        output_dir = 'results_mt0_xxl/mt_german/'
+        output_dir = 'results_mt0_mt/mt_german/'
         create_dir(output_dir)
 
         machine_translation_germany(model_pipeline, tokenizer, output_dir, reverse=True)
     elif ner is True:
 
-        output_dir = 'results_mt0_xxl/ner/'
+        output_dir = 'results_mt0_mt/ner/'
         create_dir(output_dir)
 
         named_entity_recognition(model_pipeline, tokenizer, output_dir)
